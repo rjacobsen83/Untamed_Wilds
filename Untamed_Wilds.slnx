@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Untamed_Wilds/Untamed_Wilds/Untamed_Wilds.csproj" />
+  <Project Path="Untamed_Wilds/ZZCakeBuild/CakeBuild.csproj" />
+</Solution>

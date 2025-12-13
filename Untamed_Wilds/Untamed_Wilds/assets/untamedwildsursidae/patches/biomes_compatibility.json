@@ -1,0 +1,65 @@
+[
+	{
+		"file": "untamedwildsursidae:entities/land/ursidae.json",
+		"op": "addmerge",
+		"path": "/attributesByType",
+		"side": "Server",
+		"value": {
+			"*-ailuropodamelanoleuca": {
+				"biorealm": [
+					"eastern palearctic"
+				]
+			},
+			"*-helarctosmalayanus": {
+				"biorealm": [
+					"eastern palearctic",
+					"pacific palearctic"
+				]
+			},
+			"*-melursusursinus": {
+				"biorealm": [
+					"central palearctic"
+				]
+			},
+			"*-tremarctosornatus": {
+				"biorealm": [
+					"pacific neotropic"
+				]
+			},
+			"*-ursusamericanus": {
+				"biorealm": [
+					"atlantic nearctic",
+					"pacific nearctic"
+				]
+			},
+			"*-ursusarctos": {
+				"biorealm": [
+					"atlantic nearctic",
+					"pacific nearctic",
+					"atlantic palearctic",
+					"central palearctic",
+					"eastern palearctic",
+					"pacific palearctic"
+					]
+			},
+			"*-ursusmaritimus": {
+				"biorealm": [
+					"atlantic nearctic",
+					"pacific nearctic",
+					"atlantic palearctic",
+					"central palearctic",
+					"eastern palearctic",
+					"pacific palearctic"
+				]
+			},
+			"*-ursusthibetanus": {
+				"biorealm": [
+					"central palearctic",
+					"eastern palearctic",
+					"pacific palearctic"
+				]
+			}
+		},
+		"dependsOn": [ { "modid": "biomes" } ]
+	}
+]

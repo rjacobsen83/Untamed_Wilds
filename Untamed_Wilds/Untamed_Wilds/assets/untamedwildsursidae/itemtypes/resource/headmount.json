@@ -1,0 +1,109 @@
+{
+  "code": "headmount",
+	"maxstacksize": 4,
+  "variantgroups": [
+    {"code": "type","states": [ "baby","female","male" ]},
+    {"code": "species","states": [ "ailuropodamelanoleuca","helarctosmalayanus","melursusursinus","tremarctosornatus","ursusamericanus","ursusarctos","ursusmaritimus","ursusthibetanus"]}
+  ],
+	"allowedVariants": [
+		"headmount-female-*",
+		"headmount-male-*",
+		"headmount-baby-*"
+	],
+  "attributes": {
+    "handbook": {
+      "groupBy": [ "headmount-*" ]
+    },
+    "antlerMountableByType": {
+		  "*": true
+	    },
+    "onAntlerMountTransformByType": {
+      "*-female-ailuropodamelanoleuca": { "translation": { "x": 0, "y": 0.07, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.85 },
+      "*-male-ailuropodamelanoleuca": { "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 1.0 },
+      "*-baby-ailuropodamelanoleuca": { "translation": { "x": -0.2, "y": 0.45, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.4 },
+
+      "*-female-helarctosmalayanus": { "translation": { "x": -0.1, "y": 0.15, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.7 },
+      "*-male-helarctosmalayanus": { "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.9 },
+      "*-baby-helarctosmalayanus": { "translation": { "x": -0.28, "y": 0.5, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.3 },
+    
+      "*-female-melursusursinus": { "translation": { "x": -0.1, "y": 0.15, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.85 },
+      "*-male-melursusursinus": { "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 1 },
+      "*-baby-melursusursinus": { "translation": { "x": -0.25, "y": 0.5, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.35 },
+    
+      "*-female-tremarctosornatus": { "translation": { "x": -0.05, "y": 0.15, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.75 },
+      "*-male-tremarctosornatus": { "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 1 },
+      "*-baby-tremarctosornatus": { "translation": { "x": -0.25, "y": 0.5, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.3 },
+    
+      "*-female-ursusamericanus": { "translation": { "x": -0.05, "y": 0.15, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.8 },
+      "*-male-ursusamericanus": { "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 1 },
+      "*-baby-ursusamericanus": { "translation": { "x": -0.25, "y": 0.5, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.35 },
+    
+      "*-female-ursusarctos": { "translation": { "x": -0.1, "y": 0.08, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.85 },
+      "*-male-ursusarctos": { "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 1 },
+      "*-baby-ursusarctos": { "translation": { "x": -0.25, "y": 0.48, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.35 },
+    
+      "*-female-ursusmaritimus": { "translation": { "x": -0.1, "y": 0.15, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.75 },
+      "*-male-ursusmaritimus": { "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 1 },
+      "*-baby-ursusmaritimus": { "translation": { "x": -0.25, "y": 0.44, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.4 },
+    
+      "*-female-ursusthibetanus": { "translation": { "x": 0, "y": 0.15, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.8 },
+      "*-male-ursusthibetanus": { "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 1 },
+      "*-baby-ursusthibetanus": { "translation": { "x": -0.25, "y": 0.5, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "origin": { "x": 0.5, "y": 0.0, "z": 0.5 }, "scale": 0.35 }
+    }
+  },
+  "shapebytype": {
+    "*-ailuropodamelanoleuca": {"base": "item/ursidae/{species}/headmount-ailuropodamelanoleuca"},
+    "*-helarctosmalayanus": {"base": "item/ursidae/{species}/headmount-helarctosmalayanus"},
+    "*-melursusursinus": {"base": "item/ursidae/{species}/headmount-melursusursinus"},
+    "*-tremarctosornatus": {"base": "item/ursidae/{species}/headmount-tremarctosornatus"},
+    "*-ursusamericanus": {"base": "item/ursidae/{species}/headmount-ursusamericanus"},
+    "*-ursusarctos": {"base": "item/ursidae/{species}/headmount-ursusarctos"},
+    "*-ursusmaritimus": {"base": "item/ursidae/{species}/headmount-ursusmaritimus"},
+    "*-ursusthibetanus": {"base": "item/ursidae/{species}/headmount-ursusthibetanus"}
+  },
+  "creativeinventory": {"general": [ "*" ], "decorative": [ "*" ]
+  },
+  "texturesByType": {
+    "*-ailuropodamelanoleuca": {"ailuropodamelanoleuca": {"base": "entity/ursidae/{species}"}},
+    "*-helarctosmalayanus": {"helarctosmalayanus": {"base": "entity/ursidae/{species}"}},
+    "*-melursusursinus": {"melursusursinus": {"base": "entity/ursidae/{species}"}},
+    "*-tremarctosornatus": {"tremarctosornatus": {"base": "entity/ursidae/{species}"}},
+    "*-ursusamericanus": {"ursusamericanus": {"base": "entity/ursidae/{species}"}},
+    "*-ursusarctos": {"ursusarctos": {"base": "entity/ursidae/{species}"}},
+    "*-ursusmaritimus": {"ursusmaritimus": {"base": "entity/ursidae/{species}"}},
+    "*-ursusthibetanus": {"ursusthibetanus": {"base": "entity/ursidae/{species}"}}
+  },
+  "combustibleProps": {
+    "burnTemperature": 400,
+    "burnDuration": 10
+  },
+  "sounds": {
+    "place": "game:block/cloth",
+    "walk": "game:walk/cloth"
+  },
+  "guiTransformByType": {
+    "*": {
+     "translation": {"x": 0,"y": 0,"z": 0},
+    "rotation": {"x": -180,"y": -110,"z": 0},
+    "origin": {"x": 1,"y": 0.5,"z": 0.5},
+    "scale": 2.0
+      }
+  },
+  "groundTransform": {
+    "translation": {"x": 0.5,"y": 0,"z": 0},
+    "rotation": {"x": 0,"y": 135,"z": 0},
+    "origin": {"x": 1,"y": 0.5,"z": 0.5},
+    "scale": 1
+  },
+  "tpHandTransform": {
+    "translation": {"x": -0.55,"y": -0.6,"z": -0.15},
+    "rotation": {"x": 0,"y": 0,"z": 0},
+    "origin": {"x": 0.5,"y": 0.5,"z": 0.1},
+    "scale": 1.0
+  },
+  "fpHandTransform": {
+    "rotation": {"x": 0,"y": 0,"z": 0},
+    "origin": {"x": 0.5,"y": -1,"z": 1.5}
+  },
+  "materialDensity": 200
+}

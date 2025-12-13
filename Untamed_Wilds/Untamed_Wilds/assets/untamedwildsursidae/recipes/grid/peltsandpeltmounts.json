@@ -1,0 +1,1170 @@
+[
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"baby-helarctosmalayanus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-small", 
+			"quantity": 1  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"baby-ailuropodamelanoleuca",
+					"baby-melursusursinus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-small", 
+			"quantity": 2  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"baby-tremarctosornatus",
+					"baby-ursusamericanus",
+					"baby-ursusarctos",
+					"baby-ursusthibetanus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-medium", 
+			"quantity": 1  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"female-helarctosmalayanus",
+					"baby-ursusmaritimus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-large", 
+			"quantity": 1  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"male-helarctosmalayanus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-large", 
+			"quantity": 2  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"female-ailuropodamelanoleuca",
+					"female-melursusursinus",
+          "male-ursusthibetanus"
+
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-large", 
+			"quantity": 3  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"male-ailuropodamelanoleuca",
+					"male-melursusursinus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-large", 
+			"quantity": 4  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"female-tremarctosornatus",
+					"male-tremarctosornatus",
+					"female-ursusamericanus",
+					"male-ursusamericanus",
+					"female-ursusarctos",
+					"female-ursusthibetanus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-huge", 
+			"quantity": 2  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"male-ursusarctos",
+					"female-ursusmaritimus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-huge", 
+			"quantity": 3  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"male-ursusmaritimus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-huge", 
+			"quantity": 4  
+		}
+	},
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-female-ailuropodamelanoleuca",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-ailuropodamelanoleuca-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-ailuropodamelanoleuca-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-female-ailuropodamelanoleuca",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-male-ailuropodamelanoleuca",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-ailuropodamelanoleuca-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-ailuropodamelanoleuca-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-male-ailuropodamelanoleuca",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-ailuropodamelanoleuca",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-ailuropodamelanoleuca-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-ailuropodamelanoleuca-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-ailuropodamelanoleuca",
+      "quantity": 1
+    }
+  },
+
+
+
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-female-helarctosmalayanus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-helarctosmalayanus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-helarctosmalayanus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-female-helarctosmalayanus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-male-helarctosmalayanus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-helarctosmalayanus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-helarctosmalayanus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-male-helarctosmalayanus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-helarctosmalayanus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-helarctosmalayanus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-helarctosmalayanus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-helarctosmalayanus",
+      "quantity": 1
+    }
+  },
+
+
+
+
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-female-melursusursinus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-melursusursinus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-melursusursinus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-female-melursusursinus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-male-melursusursinus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-melursusursinus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-melursusursinus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-male-melursusursinus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-melursusursinus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-melursusursinus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-melursusursinus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-melursusursinus",
+      "quantity": 1
+    }
+  },
+
+
+
+
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-female-tremarctosornatus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-tremarctosornatus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-tremarctosornatus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-female-tremarctosornatus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-male-tremarctosornatus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-tremarctosornatus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-tremarctosornatus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-male-tremarctosornatus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-tremarctosornatus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-tremarctosornatus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-tremarctosornatus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-tremarctosornatus",
+      "quantity": 1
+    }
+  },
+
+
+
+
+
+
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-female-ursusamericanus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-ursusamericanus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-ursusamericanus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-female-ursusamericanus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-male-ursusamericanus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-ursusamericanus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-ursusamericanus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-male-ursusamericanus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-ursusamericanus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-ursusamericanus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-ursusamericanus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-ursusamericanus",
+      "quantity": 1
+    }
+  },
+
+
+
+
+
+
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-female-ursusarctos",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-ursusarctos-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-ursusarctos-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-female-ursusarctos",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-male-ursusarctos",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-ursusarctos-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-ursusarctos-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-male-ursusarctos",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-ursusarctos",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-ursusarctos-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-ursusarctos-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-ursusarctos",
+      "quantity": 1
+    }
+  },
+
+
+
+
+
+
+
+
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-female-ursusmaritimus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-ursusmaritimus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-ursusmaritimus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-female-ursusmaritimus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-male-ursusmaritimus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-ursusmaritimus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-ursusmaritimus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-male-ursusmaritimus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-ursusmaritimus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-ursusmaritimus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-ursusmaritimus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-ursusmaritimus",
+      "quantity": 1
+    }
+  },
+
+
+
+
+
+
+
+
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-female-ursusthibetanus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-ursusthibetanus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-female-ursusthibetanus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-female-ursusthibetanus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-male-ursusthibetanus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-ursusthibetanus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-male-ursusthibetanus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-male-ursusthibetanus",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda Item to Block",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-ursusthibetanus",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-ursusthibetanus-north",
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Panda block to item",
+    "ingredientPattern": "K",
+    "ingredients": {
+      "K": {
+        "type": "block",
+      "code": "untamedwildsursidae:peltmount-baby-ursusthibetanus-north",
+        "quantity": "1"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+        "code": "untamedwildsursidae:pelt-baby-ursusthibetanus",
+      "quantity": 1
+    }
+  },
+]

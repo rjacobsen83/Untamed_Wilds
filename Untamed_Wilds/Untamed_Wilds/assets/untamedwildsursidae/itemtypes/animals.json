@@ -1,0 +1,140 @@
+{
+	"code": "creature",
+	"class": "ItemCreature",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [
+				"ursidae-adult-female-ailuropodamelanoleuca","ursidae-adult-male-ailuropodamelanoleuca","ursidae-baby-female-ailuropodamelanoleuca","ursidae-baby-male-ailuropodamelanoleuca",
+				"ursidae-adult-female-helarctosmalayanus","ursidae-adult-male-helarctosmalayanus","ursidae-baby-female-helarctosmalayanus","ursidae-baby-male-helarctosmalayanus",
+				"ursidae-adult-female-melursusursinus","ursidae-adult-male-melursusursinus","ursidae-baby-female-melursusursinus","ursidae-baby-male-melursusursinus",
+				"ursidae-adult-female-tremarctosornatus","ursidae-adult-male-tremarctosornatus","ursidae-baby-female-tremarctosornatus","ursidae-baby-male-tremarctosornatus",
+				"ursidae-adult-female-ursusamericanus","ursidae-adult-male-ursusamericanus","ursidae-baby-female-ursusamericanus","ursidae-baby-male-ursusamericanus",
+				"ursidae-adult-female-ursusarctos","ursidae-adult-male-ursusarctos","ursidae-baby-female-ursusarctos","ursidae-baby-male-ursusarctos",
+				"ursidae-adult-female-ursusmaritimus","ursidae-adult-male-ursusmaritimus","ursidae-baby-female-ursusmaritimus","ursidae-baby-male-ursusmaritimus",
+				"ursidae-adult-female-ursusthibetanus","ursidae-adult-male-ursusthibetanus","ursidae-baby-female-ursusthibetanus","ursidae-baby-male-ursusthibetanus"
+			]
+		}
+	],
+
+	"shapeByType": {
+		"*-adult-male-ailuropodamelanoleuca": {"base": "entity/land/ursidae/ailuropodamelanoleuca"},
+		"*-adult-female-ailuropodamelanoleuca": {"base": "entity/land/ursidae/ailuropodamelanoleuca"},
+		"*-baby-female-ailuropodamelanoleuca": {"base": "entity/land/ursidae/ailuropodamelanoleuca"},
+		"*-baby-male-ailuropodamelanoleuca": {"base": "entity/land/ursidae/ailuropodamelanoleuca"},
+
+		"*-adult-male-helarctosmalayanus": {"base": "entity/land/ursidae/helarctosmalayanus"},
+		"*-adult-female-helarctosmalayanus": {"base": "entity/land/ursidae/helarctosmalayanus"},
+		"*-baby-female-helarctosmalayanus": {"base": "entity/land/ursidae/helarctosmalayanus"},
+		"*-baby-male-helarctosmalayanus": {"base": "entity/land/ursidae/helarctosmalayanus"},
+
+		"*-adult-male-melursusursinus": {"base": "entity/land/ursidae/melursusursinus"},
+		"*-adult-female-melursusursinus": {"base": "entity/land/ursidae/melursusursinus"},
+		"*-baby-female-melursusursinus": {"base": "entity/land/ursidae/melursusursinus"},
+		"*-baby-male-melursusursinus": {"base": "entity/land/ursidae/melursusursinus"},
+
+		"*-adult-male-tremarctosornatus": {"base": "entity/land/ursidae/tremarctosornatus"},
+		"*-adult-female-tremarctosornatus": {"base": "entity/land/ursidae/tremarctosornatus"},
+		"*-baby-female-tremarctosornatus": {"base": "entity/land/ursidae/tremarctosornatus"},
+		"*-baby-male-tremarctosornatus": {"base": "entity/land/ursidae/tremarctosornatus"},
+
+		"*-adult-male-ursusamericanus": {"base": "entity/land/ursidae/ursusamericanus"},
+		"*-adult-female-ursusamericanus": {"base": "entity/land/ursidae/ursusamericanus"},
+		"*-baby-female-ursusamericanus": {"base": "entity/land/ursidae/ursusamericanus"},
+		"*-baby-male-ursusamericanus": {"base": "entity/land/ursidae/ursusamericanus"},
+
+		"*-adult-male-ursusarctos": {"base": "entity/land/ursidae/ursusarctos"},
+		"*-adult-female-ursusarctos": {"base": "entity/land/ursidae/ursusarctos"},
+		"*-baby-female-ursusarctos": {"base": "entity/land/ursidae/ursusarctos"},
+		"*-baby-male-ursusarctos": {"base": "entity/land/ursidae/ursusarctos"},
+
+		"*-adult-male-ursusmaritimus": {"base": "entity/land/ursidae/ursusmaritimus"},
+		"*-adult-female-ursusmaritimus": {"base": "entity/land/ursidae/ursusmaritimus"},
+		"*-baby-female-ursusmaritimus": {"base": "entity/land/ursidae/ursusmaritimus"},
+		"*-baby-male-ursusmaritimus": {"base": "entity/land/ursidae/ursusmaritimus"},
+		
+		"*-adult-male-ursusthibetanus": {"base": "entity/land/ursidae/ursusthibetanus"},
+		"*-adult-female-ursusthibetanus": {"base": "entity/land/ursidae/ursusthibetanus"},
+		"*-baby-female-ursusthibetanus": {"base": "entity/land/ursidae/ursusthibetanus"},
+		"*-baby-male-ursusthibetanus": {"base": "entity/land/ursidae/ursusthibetanus"}
+	},
+	"texturesByType": {
+		"*-adult-male-ailuropodamelanoleuca": {"ailuropodamelanoleuca": { "base": "entity/ursidae/ailuropodamelanoleuca" }},
+		"*-adult-female-ailuropodamelanoleuca": {"ailuropodamelanoleuca": { "base": "entity/ursidae/ailuropodamelanoleuca" }},
+		"*-baby-female-ailuropodamelanoleuca": {"ailuropodamelanoleuca": { "base": "entity/ursidae/ailuropodamelanoleuca" }},
+		"*-baby-male-ailuropodamelanoleuca": {"ailuropodamelanoleuca": { "base": "entity/ursidae/ailuropodamelanoleuca" }},
+		
+		"*-adult-male-helarctosmalayanus": {"helarctosmalayanus": { "base": "entity/ursidae/helarctosmalayanus" }},
+		"*-adult-female-helarctosmalayanus": {"helarctosmalayanus": { "base": "entity/ursidae/helarctosmalayanus" }}, 
+		"*-baby-female-helarctosmalayanus": {"helarctosmalayanus": { "base": "entity/ursidae/helarctosmalayanus" }},
+		"*-baby-male-helarctosmalayanus": {"helarctosmalayanus": { "base": "entity/ursidae/helarctosmalayanus" }},
+
+		"*-adult-male-melursusursinus": {"melursusursinus": { "base": "entity/ursidae/melursusursinus" }},
+		"*-adult-female-melursusursinus": {"melursusursinus": { "base": "entity/ursidae/melursusursinus" }}, 
+		"*-baby-female-melursusursinus": {"melursusursinus": { "base": "entity/ursidae/melursusursinus" }},
+		"*-baby-male-melursusursinus": {"melursusursinus": { "base": "entity/ursidae/melursusursinus" }},
+
+		"*-adult-male-tremarctosornatus": {"tremarctosornatus": { "base": "entity/ursidae/tremarctosornatus" }},
+		"*-adult-female-tremarctosornatus": {"tremarctosornatus": { "base": "entity/ursidae/tremarctosornatus" }}, 
+		"*-baby-female-tremarctosornatus": {"tremarctosornatus": { "base": "entity/ursidae/tremarctosornatus" }},
+		"*-baby-male-tremarctosornatus": {"tremarctosornatus": { "base": "entity/ursidae/tremarctosornatus" }},
+		
+		"*-adult-male-ursusamericanus": {"ursusamericanus": { "base": "entity/ursidae/ursusamericanus" }},
+		"*-adult-female-ursusamericanus": {"ursusamericanus": { "base": "entity/ursidae/ursusamericanus" }}, 
+		"*-baby-female-ursusamericanus": {"ursusamericanus": { "base": "entity/ursidae/ursusamericanus" }},
+		"*-baby-male-ursusamericanus": {"ursusamericanus": { "base": "entity/ursidae/ursusamericanus" }},
+
+		"*-adult-male-ursusarctos": {"ursusarctos": { "base": "entity/ursidae/ursusarctos" }},
+		"*-adult-female-ursusarctos": {"ursusarctos": { "base": "entity/ursidae/ursusarctos" }}, 
+		"*-baby-female-ursusarctos": {"ursusarctos": { "base": "entity/ursidae/ursusarctos" }},
+		"*-baby-male-ursusarctos": {"ursusarctos": { "base": "entity/ursidae/ursusarctos" }},
+		
+		"*-adult-male-ursusmaritimus": {"ursusmaritimus": { "base": "entity/ursidae/ursusmaritimus" }},
+		"*-adult-female-ursusmaritimus": {"ursusmaritimus": { "base": "entity/ursidae/ursusmaritimus" }}, 
+		"*-baby-female-ursusmaritimus": {"ursusmaritimus": { "base": "entity/ursidae/ursusmaritimus" }},
+		"*-baby-male-ursusmaritimus": {"ursusmaritimus": { "base": "entity/ursidae/ursusmaritimus" }},
+
+		"*-adult-male-ursusthibetanus": {"ursusthibetanus": { "base": "entity/ursidae/ursusthibetanus" }},
+		"*-adult-female-ursusthibetanus": {"ursusthibetanus": { "base": "entity/ursidae/ursusthibetanus" }}, 
+		"*-baby-female-ursusthibetanus": {"ursusthibetanus": { "base": "entity/ursidae/ursusthibetanus" }},
+		"*-baby-male-ursusthibetanus": {"ursusthibetanus": { "base": "entity/ursidae/ursusthibetanus" }}
+	},
+	
+	"creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
+	"materialDensity": 600,
+	"guiTransformByType": {
+		
+		"creature-ursidae-*": {
+			"rotate": true,
+			"translation": { "x": 3, "y": 0, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+			"scale": 0.75
+		}				
+	},
+	
+	"tpHandTransformByType": {
+		"creature-ursidae-*": {
+			"translation": { "x": -0.9, "y": -0.9, "z": -0.7 },
+			"rotation": { "x": -180, "y": 0, "z": -156 },
+			"scale": 0.45
+		}		
+	},
+	
+	"fpHandTransformByType": {
+		"creature-ursidae-*": {
+			"translation": { "x": 0.2, "y": 0, "z": 0 },
+			"rotation": { "x": -8, "y": -63, "z": -7 }
+		}
+	}
+}
+
+	
+	
+	
+	
+
+
+
+

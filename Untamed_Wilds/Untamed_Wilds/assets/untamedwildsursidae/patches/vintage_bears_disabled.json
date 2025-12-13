@@ -1,0 +1,19 @@
+[
+	{
+		"_comment": "0-BEAR-VINTAGE",
+		"_comment": "Default is 0.015",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/bear-male-*/worldgen/TriesPerChunk/avg",
+    	"value": 0.0,
+ 		"side": "Server",
+    	"file": "game:entities/land/bear.json"
+	},
+	{
+		"_comment": "1-Default is 0.00003",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/bear-male-*/runtime/chance",
+    	"value": 0.0,
+ 		"side": "Server",
+    	"file": "game:entities/land/bear.json"
+	},
+]

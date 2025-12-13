@@ -1,0 +1,9 @@
+{
+  "type": "content",
+  "modid": "untamedwildsursidae",
+  "name": "Untamed Wilds: Ursidae",
+  "authors": [ "Dnd" ],
+  "description": "A collection of bears from past and present.",
+  "version": "1.0.1",
+  "side": "Universal"
+}

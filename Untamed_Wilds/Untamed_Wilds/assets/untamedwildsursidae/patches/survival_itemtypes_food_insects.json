@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*",
+    "value": {
+      "foodTags": [
+        "insect"
+      ]
+    },
+    "file": "game:itemtypes/food/insect.json",
+    "side": "Server"
+  }
+]

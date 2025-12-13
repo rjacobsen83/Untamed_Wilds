@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/foodTags",
+    "value": [
+      "fish"
+    ],
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  }
+]

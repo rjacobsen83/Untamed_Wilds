@@ -1,0 +1,219 @@
+{
+	"item-creature-ursidae-adult-female-ailuropodamelanoleuca": "Female Panda Bear",
+	"item-creature-ursidae-adult-male-ailuropodamelanoleuca": "Male Panda Bear",
+	"item-creature-ursidae-baby-female-ailuropodamelanoleuca": "Female Panda Bear Cub",
+	"item-creature-ursidae-baby-male-ailuropodamelanoleuca": "Male Panda Bear Cub",
+
+	"item-creature-ursidae-adult-female-helarctosmalayanus": "Female Sun Bear",
+	"item-creature-ursidae-adult-male-helarctosmalayanus": "Male Sun Bear",
+	"item-creature-ursidae-baby-female-helarctosmalayanus": "Female Sun Bear Cub",
+	"item-creature-ursidae-baby-male-helarctosmalayanus": "Male Sun Bear Cub",
+
+	"item-creature-ursidae-adult-female-melursusursinus": "Female Sloth Bear",
+	"item-creature-ursidae-adult-male-melursusursinus": "Male Sloth Bear",
+	"item-creature-ursidae-baby-female-melursusursinus": "Female Sloth Bear Cub",
+	"item-creature-ursidae-baby-male-melursusursinus": "Male Sloth Bear Cub",
+
+	"item-creature-ursidae-adult-female-tremarctosornatus": "Female Spectacled Bear",
+	"item-creature-ursidae-adult-male-tremarctosornatus": "Male Spectacled Bear",
+	"item-creature-ursidae-baby-female-tremarctosornatus": "Female Spectacled Bear Cub",
+	"item-creature-ursidae-baby-male-tremarctosornatus": "Male Spectacled Bear Cub",
+
+	"item-creature-ursidae-adult-female-ursusamericanus": "Female Black Bear",
+	"item-creature-ursidae-adult-male-ursusamericanus": "Male Black Bear",
+	"item-creature-ursidae-baby-female-ursusamericanus": "Female Black Bear Cub",
+	"item-creature-ursidae-baby-male-ursusamericanus": "Male Black Bear Cub",
+
+	"item-creature-ursidae-adult-female-ursusarctos": "Female Brown Bear",
+	"item-creature-ursidae-adult-male-ursusarctos": "Male Brown Bear",
+	"item-creature-ursidae-baby-female-ursusarctos": "Female Brown Bear Cub",
+	"item-creature-ursidae-baby-male-ursusarctos": "Male Brown Bear Cub",
+  
+	"item-creature-ursidae-adult-female-ursusmaritimus": "Female Polar Bear",
+	"item-creature-ursidae-adult-male-ursusmaritimus": "Male Polar Bear",
+	"item-creature-ursidae-baby-female-ursusmaritimus": "Female Polar Bear Cub",
+	"item-creature-ursidae-baby-male-ursusmaritimus": "Male Polar Bear Cub",
+
+	"item-creature-ursidae-adult-female-ursusthibetanus": "Female Moon Bear",
+	"item-creature-ursidae-adult-male-ursusthibetanus": "Male Moon Bear",
+	"item-creature-ursidae-baby-female-ursusthibetanus": "Female Moon Bear Cub",
+	"item-creature-ursidae-baby-male-ursusthibetanus": "Male Moon Bear Cub",
+
+	"item-dead-creature-ursidae-adult-female-ailuropodamelanoleuca": "Dead Female Panda Bear",
+	"item-dead-creature-ursidae-adult-male-ailuropodamelanoleuca": "Dead Male Panda Bear",
+	"item-dead-creature-ursidae-baby-female-ailuropodamelanoleuca": "Dead Female Panda Bear Cub",
+	"item-dead-creature-ursidae-baby-male-ailuropodamelanoleuca": "Dead Male Panda Bear Cub",
+
+	"item-dead-creature-ursidae-adult-female-helarctosmalayanus": "Dead Female Sun Bear",
+	"item-dead-creature-ursidae-adult-male-helarctosmalayanus": "Dead Male Sun Bear",
+	"item-dead-creature-ursidae-baby-female-helarctosmalayanus": "Dead Female Sun Bear Cub",
+	"item-dead-creature-ursidae-baby-male-helarctosmalayanus": "Dead Male Sun Bear Cub",
+
+	"item-dead-creature-ursidae-adult-female-melursusursinus": "Dead Female Sloth Bear",
+	"item-dead-creature-ursidae-adult-male-melursusursinus": "Dead Male Sloth Bear",
+	"item-dead-creature-ursidae-baby-female-melursusursinus": "Dead Female Sloth Bear Cub",
+	"item-dead-creature-ursidae-baby-male-melursusursinus": "Dead Male Sloth Bear Cub",
+
+	"item-dead-creature-ursidae-adult-female-tremarctosornatus": "Dead Female Spectacled Bear",
+	"item-dead-creature-ursidae-adult-male-tremarctosornatus": "Dead Male Spectacled Bear",
+	"item-dead-creature-ursidae-baby-female-tremarctosornatus": "Dead Female Spectacled Bear Cub",
+	"item-dead-creature-ursidae-baby-male-tremarctosornatus": "Dead Male Spectacled Bear Cub",
+
+	"item-dead-creature-ursidae-adult-female-ursusamericanus": "Dead Female Black Bear",
+	"item-dead-creature-ursidae-adult-male-ursusamericanus": "Dead Male Black Bear",
+	"item-dead-creature-ursidae-baby-female-ursusamericanus": "Dead Female Black Bear Cub",
+	"item-dead-creature-ursidae-baby-male-ursusamericanus": "Dead Male Black Bear Cub",
+
+	"item-dead-creature-ursidae-adult-female-ursusarctos": "Dead Female Brown Bear",
+	"item-dead-creature-ursidae-adult-male-ursusarctos": "Dead Male Brown Bear",
+	"item-dead-creature-ursidae-baby-female-ursusarctos": "Dead Female Brown Bear Cub",
+	"item-dead-creature-ursidae-baby-male-ursusarctos": "Dead Male Brown Bear Cub",
+  
+	"item-dead-creature-ursidae-adult-female-ursusmaritimus": "Dead Female Polar Bear",
+	"item-dead-creature-ursidae-adult-male-ursusmaritimus": "Dead Male Polar Bear",
+	"item-dead-creature-ursidae-baby-female-ursusmaritimus": "Dead Female Polar Bear Cub",
+	"item-dead-creature-ursidae-baby-male-ursusmaritimus": "Dead Male Polar Bear Cub",
+
+	"item-dead-creature-ursidae-adult-female-ursusthibetanus": "Dead Female Moon Bear",
+	"item-dead-creature-ursidae-adult-male-ursusthibetanus": "Dead Male Moon Bear",
+	"item-dead-creature-ursidae-baby-female-ursusthibetanus": "Dead Female Moon Bear Cub",
+	"item-dead-creature-ursidae-baby-male-ursusthibetanus": "Dead Male Moon Bear Cub",
+
+	"item-pelt-female-ailuropodamelanoleuca": "Panda Bear Pelt (Female)",
+	"item-pelt-male-ailuropodamelanoleuca": "Panda Bear Pelt (Male)",
+	"item-pelt-baby-ailuropodamelanoleuca": "Panda Bear Pelt (Baby)",
+
+	"item-pelt-female-helarctosmalayanus": "Sun Bear Pelt (Female)",
+	"item-pelt-male-helarctosmalayanus": "Sun Bear Pelt (Male)",
+	"item-pelt-baby-helarctosmalayanus": "Sun Bear Pelt (Baby)",
+
+	"item-pelt-female-melursusursinus": "Sloth Bear Pelt (Female)",
+	"item-pelt-male-melursusursinus": "Sloth Bear Pelt (Male)",
+	"item-pelt-baby-melursusursinus": "Sloth Bear Pelt (Baby)",
+
+	"item-pelt-female-tremarctosornatus": "Spectacled Bear Pelt (Female)",
+	"item-pelt-male-tremarctosornatus": "Spectacled Bear Pelt (Male)",
+	"item-pelt-baby-tremarctosornatus": "Spectacled Bear Pelt (Baby)",
+
+	"item-pelt-female-ursusamericanus": "Black Bear Pelt (Female)",
+	"item-pelt-male-ursusamericanus": "Black Bear Pelt (Male)",
+	"item-pelt-baby-ursusamericanus": "Black Bear Pelt (Baby)",
+
+	"item-pelt-female-ursusarctos": "Brown Bear Pelt (Female)",
+	"item-pelt-male-ursusarctos": "Brown Bear Pelt (Male)",
+	"item-pelt-baby-ursusarctos": "Brown Bear Pelt (Baby)",
+
+	"item-pelt-female-ursusmaritimus": "Polar Bear Pelt (Female)",
+	"item-pelt-male-ursusmaritimus": "Polar Bear Pelt (Male)",
+	"item-pelt-baby-ursusmaritimus": "Polar Bear Pelt (Baby)",
+
+	"item-pelt-female-ursusthibetanus": "Moon Bear Pelt (Female)",
+	"item-pelt-male-ursusthibetanus": "Moon Bear Pelt (Male)",
+	"item-pelt-baby-ursusthibetanus": "Moon Bear Pelt (Baby)",
+
+	"block-peltmount-female-ailuropodamelanoleuca-*": "Panda Bear Pelt Mount (Female)",
+	"block-peltmount-male-ailuropodamelanoleuca-*": "Panda Bear Pelt Mount (Male)",
+	"block-peltmount-baby-ailuropodamelanoleuca-*": "Panda Bear Pelt Mount (Baby)",
+
+	"block-peltmount-female-helarctosmalayanus-*": "Sun Bear Pelt Mount (Female)",
+	"block-peltmount-male-helarctosmalayanus-*": "Sun Bear Pelt Mount (Male)",
+	"block-peltmount-baby-helarctosmalayanus-*": "Sun Bear Pelt Mount (Baby)",
+
+	"block-peltmount-female-melursusursinus-*": "Sloth Bear Pelt Mount (Female)",
+	"block-peltmount-male-melursusursinus-*": "Sloth Bear Pelt Mount (Male)",
+	"block-peltmount-baby-melursusursinus-*": "Sloth Bear Pelt Mount (Baby)",
+
+	"block-peltmount-female-tremarctosornatus-*": "Spectacled Bear Pelt Mount (Female)",
+	"block-peltmount-male-tremarctosornatus-*": "Spectacled Bear Pelt Mount (Male)",
+	"block-peltmount-baby-tremarctosornatus-*": "Spectacled Bear Pelt Mount (Baby)",
+
+	"block-peltmount-female-ursusamericanus-*": "Black Bear Pelt Mount (Female)",
+	"block-peltmount-male-ursusamericanus-*": "Black Bear Pelt Mount (Male)",
+	"block-peltmount-baby-ursusamericanus-*": "Black Bear Pelt Mount (Baby)",
+
+	"block-peltmount-female-ursusarctos-*": "Brown Bear Pelt Mount (Female)",
+	"block-peltmount-male-ursusarctos-*": "Brown Bear Pelt Mount (Male)",
+	"block-peltmount-baby-ursusarctos-*": "Brown Bear Pelt Mount (Baby)",
+
+	"block-peltmount-female-ursusmaritimus-*": "Polar Bear Pelt Mount (Female)",
+	"block-peltmount-male-ursusmaritimus-*": "Polar Bear Pelt Mount (Male)",
+	"block-peltmount-baby-ursusmaritimus-*": "Polar Bear Pelt Mount (Baby)",
+
+	"block-peltmount-female-ursusthibetanus-*": "Moon Bear Pelt Mount (Female)",
+	"block-peltmount-male-ursusthibetanus-*": "Moon Bear Pelt Mount (Male)",
+	"block-peltmount-baby-ursusthibetanus-*": "Moon Bear Pelt Mount (Baby)",
+
+  "item-headmount-female-ailuropodamelanoleuca": "Panda Bear Head Mount (Female)",
+  "item-headmount-male-ailuropodamelanoleuca": "Panda Bear Head Mount (Male)",
+  "item-headmount-baby-ailuropodamelanoleuca": "Panda Bear Head Mount (Baby)",
+
+  "item-headmount-female-helarctosmalayanus": "Sun Bear Head Mount (Female)",
+  "item-headmount-male-helarctosmalayanus": "Sun Bear Head Mount (Male)",
+  "item-headmount-baby-helarctosmalayanus": "Sun Bear Head Mount (Baby)",
+
+  "item-headmount-female-melursusursinus": "Sloth Bear Head Mount (Female)",
+  "item-headmount-male-melursusursinus": "Sloth Bear Head Mount (Male)",
+  "item-headmount-baby-melursusursinus": "Sloth Bear Head Mount (Baby)",
+
+  "item-headmount-female-tremarctosornatus": "Spectacled Bear Head Mount (Female)",
+  "item-headmount-male-tremarctosornatus": "Spectacled Bear Head Mount (Male)",
+  "item-headmount-baby-tremarctosornatus": "Spectacled Bear Head Mount (Baby)",
+
+  "item-headmount-female-ursusamericanus": "Black Bear Head Mount (Female)",
+  "item-headmount-male-ursusamericanus": "Black Bear Head Mount (Male)",
+  "item-headmount-baby-ursusamericanus": "Black Bear Head Mount (Baby)",
+
+  "item-headmount-female-ursusarctos": "Brown Bear Head Mount (Female)",
+  "item-headmount-male-ursusarctos": "Brown Bear Head Mount (Male)",
+  "item-headmount-baby-ursusarctos": "Brown Bear Head Mount (Baby)",
+
+  "item-headmount-female-ursusmaritimus": "Polar Bear Head Mount (Female)",
+  "item-headmount-male-ursusmaritimus": "Polar Bear Head Mount (Male)",
+  "item-headmount-baby-ursusmaritimus": "Polar Bear Head Mount (Baby)",
+
+  "item-headmount-female-ursusthibetanus": "Moon Bear Head Mount (Female)",
+  "item-headmount-male-ursusthibetanus": "Moon Bear Head Mount (Male)",
+  "item-headmount-baby-ursusthibetanus": "Moon Bear Head Mount (Baby)",
+
+	"game:creaturegroup-ursidae": "Bear",
+	
+	"game:prefixandcreature-ursidae-adult-female-ailuropodamelanoleuca": "Female Panda Bear",
+	"game:prefixandcreature-ursidae-adult-male-ailuropodamelanoleuca": "Male Panda Bear",
+	"game:prefixandcreature-ursidae-baby-female-ailuropodamelanoleuca": "Female Panda Bear Cub",
+	"game:prefixandcreature-ursidae-baby-male-ailuropodamelanoleuca": "Male Panda Bear Cub",
+
+	"game:prefixandcreature-ursidae-adult-female-helarctosmalayanus": "Female Sun Bear",
+	"game:prefixandcreature-ursidae-adult-male-helarctosmalayanus": "Male Sun Bear",
+	"game:prefixandcreature-ursidae-baby-female-helarctosmalayanus": "Female Sun Bear Cub",
+	"game:prefixandcreature-ursidae-baby-male-helarctosmalayanus": "Male Sun Bear Cub",
+
+	"game:prefixandcreature-ursidae-adult-female-melursusursinus": "Female Sloth Bear",
+	"game:prefixandcreature-ursidae-adult-male-melursusursinus": "Male Sloth Bear",
+	"game:prefixandcreature-ursidae-baby-female-melursusursinus": "Female Sloth Bear Cub",
+	"game:prefixandcreature-ursidae-baby-male-melursusursinus": "Male Sloth Bear Cub",
+
+	"game:prefixandcreature-ursidae-adult-female-tremarctosornatus": "Female Spectacled Bear",
+	"game:prefixandcreature-ursidae-adult-male-tremarctosornatus": "Male Spectacled Bear",
+	"game:prefixandcreature-ursidae-baby-female-tremarctosornatus": "Female Spectacled Bear Cub",
+	"game:prefixandcreature-ursidae-baby-male-tremarctosornatus": "Male Spectacled Bear Cub",
+
+	"game:prefixandcreature-ursidae-adult-female-ursusamericanus": "Female Black Bear",
+	"game:prefixandcreature-ursidae-adult-male-ursusamericanus": "Male Black Bear",
+	"game:prefixandcreature-ursidae-baby-female-ursusamericanus": "Female Black Bear Cub",
+	"game:prefixandcreature-ursidae-baby-male-ursusamericanus": "Male Black Bear Cub",
+
+	"game:prefixandcreature-ursidae-adult-female-ursusarctos": "Female Brown Bear",
+	"game:prefixandcreature-ursidae-adult-male-ursusarctos": "Male Brown Bear",
+	"game:prefixandcreature-ursidae-baby-female-ursusarctos": "Female Brown Bear Cub",
+	"game:prefixandcreature-ursidae-baby-male-ursusarctos": "Male Brown Bear Cub",
+  
+	"game:prefixandcreature-ursidae-adult-female-ursusmaritimus": "Female Polar Bear",
+	"game:prefixandcreature-ursidae-adult-male-ursusmaritimus": "Male Polar Bear",
+	"game:prefixandcreature-ursidae-baby-female-ursusmaritimus": "Female Polar Bear Cub",
+	"game:prefixandcreature-ursidae-baby-male-ursusmaritimus": "Male Polar Bear Cub",
+	
+	"game:prefixandcreature-ursidae-adult-female-ursusthibetanus": "Female Moon Bear",
+	"game:prefixandcreature-ursidae-adult-male-ursusthibetanus": "Male Moon Bear",
+	"game:prefixandcreature-ursidae-baby-female-ursusthibetanus": "Female Moon Bear Cub",
+	"game:prefixandcreature-ursidae-baby-male-ursusthibetanus": "Male Moon Bear Cub"
+}

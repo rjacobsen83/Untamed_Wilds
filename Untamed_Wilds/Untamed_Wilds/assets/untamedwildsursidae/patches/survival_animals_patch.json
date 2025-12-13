@@ -1,0 +1,393 @@
+[
+	{
+		"_comment": "BEARS",
+		"_comment": "1- Melee Attack whenInEmotionState aggressiveondamage",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/1/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/bear.json"
+	},
+	{
+		"_comment": "4- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/4/entityCodesByType",
+		"value": {
+			"*-panda": [ "ursidae-*" ],
+			"*-sun": [ "ursidae-*" ],
+			"*": [ "ursidae-*" ]
+		},
+		"side": "Server",
+		"file": "game:entities/land/bear.json"
+	},
+	{
+		"_comment": "CHICKEN-BABY",
+		"_comment": "0- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/chicken-baby.json"
+	},	
+	{
+		"_comment": "CHICKEN-HEN",
+		"_comment": "0- Flee whenInEmotionState fleeondamage",
+		"op": "addmerge",
+		"path": "/server/behaviors/11/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/chicken-hen.json"
+	},
+	{
+		"_comment": "CHICKEN-ROOSTER",
+		"_comment": "0- Melee Attack-PECKER FIGHT",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "NOTHING" ],
+		"side": "Server",
+		"file": "game:entities/land/chicken-rooster.json"
+	},
+	{
+		"_comment": "1- Melee Attack whenInEmotionState aggressiveondamage",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/1/entityCodes",
+		"value": [ "NOTHING" ],
+		"side": "Server",
+		"file": "game:entities/land/chicken-rooster.json"
+	},
+	{
+		"_comment": "2- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/2/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/chicken-rooster.json"
+	},
+	{
+		"_comment": "3- SeekAlarm",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/3/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/chicken-rooster.json"
+	},
+	{
+		"_comment": "DEER",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hooved/deer.json"
+	},	
+	{
+		"_comment": "DEER",
+		"_comment": "1- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/1/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hooved/deer.json"
+	},
+	{
+		"_comment": "FOX",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/11/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/fox.json"
+	},	
+	{
+		"_comment": "3- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/11/aitasks/3/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/fox.json"
+	},
+	{
+		"_comment": "GAZELLE",
+		"_comment": "0- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/gazelle.json"
+	},	
+	{
+		"_comment": "GOATS",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/12/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hooved/goat.json"
+	},	
+	{
+		"_comment": "GOATS",
+		"_comment": "1- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/12/aitasks/1/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hooved/goat.json"
+	},
+	{
+		"_comment": "HARE-FEMALE",
+		"_comment": "0- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hare-female.json"
+	},	
+	{
+		"_comment": "HARE-MALE",
+		"_comment": "0- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hare-male.json"
+	},
+	{
+		"_comment": "HARE-BABY",
+		"_comment": "0- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hare-baby.json"
+	},
+	{
+		"_comment": "HYENAS-FEMALE",
+		"_comment": "0- Flee whenInEmotionState fleeondamage-HYENA",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hyena-female.json"
+	},
+	{
+		"_comment": "1- Melee Attack",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/1/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hyena-female.json"
+	},
+	{
+		"_comment": "HYENAS-MALE",
+		"_comment": "0- Flee whenInEmotionState fleeondamage-HYENA",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hyena-male.json"
+	},
+	{
+		"_comment": "1- Melee Attack",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/1/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hyena-male.json"
+	},
+	{
+		"_comment": "HYENAS-PUP",
+		"_comment": "0- Flee whenInEmotionState fleeondamage-HYENA",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hyena-pup.json"
+	},
+	{
+		"_comment": "MOOSE",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hooved/moose.json"
+	},	
+	{
+		"_comment": "MOOSE",
+		"_comment": "1- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/1/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/hooved/moose.json"
+	},
+	{
+		"_comment": "PIG-FEMALE",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/pig-wild-female.json"
+	},	
+	{
+		"_comment": "2- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/2/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/pig-wild-female.json"
+	},		
+	{
+		"_comment": "PIG-MALE",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/pig-wild-male.json"
+	},
+	{
+		"_comment": "2- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/2/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/pig-wild-male.json"
+	},	{
+		"_comment": "PIG-BABY",
+		"_comment": "0- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/pig-wild-piglet.json"
+	},
+	{
+		"_comment": "RACCOON-FEMALE",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/raccoon-female.json"
+	},	
+	{
+		"_comment": "2- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/2/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/raccoon-female.json"
+	},		
+	{
+		"_comment": "RACCOON-MALE",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/raccoon-male.json"
+	},
+	{
+		"_comment": "2- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/2/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/raccoon-male.json"
+	},	{
+		"_comment": "RACCOON-BABY",
+		"_comment": "0- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/raccoon-pup.json"
+	},
+	{
+		"_comment": "SHEEP-FEMALE",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/sheep-bighorn-female.json"
+	},	
+	{
+		"_comment": "2- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/2/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/sheep-bighorn-female.json"
+	},		
+	{
+		"_comment": "SHEEP-MALE",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/sheep-bighorn-male.json"
+	},
+	{
+		"_comment": "2- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/2/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/sheep-bighorn-male.json"
+	},	{
+		"_comment": "SHEEP-BABY",
+		"_comment": "0- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/sheep-bighorn-lamb.json"
+	},
+	{
+		"_comment": "WOLF-FEMALE",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/wolf-female.json"
+	},	
+	{
+		"_comment": "1- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/1/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/wolf-female.json"
+	},		
+	{
+		"_comment": "WOLF-MALE",
+		"_comment": "0- Melee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/wolf-male.json"
+	},
+	{
+		"_comment": "1- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/9/aitasks/1/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/wolf-male.json"
+	},	
+	{
+		"_comment": "WOLF-BABY",
+		"_comment": "0- Flee",
+		"op": "addmerge",
+		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"value": [ "ursidae-*" ],
+		"side": "Server",
+		"file": "game:entities/land/wolf-pup.json"
+	}
+]
