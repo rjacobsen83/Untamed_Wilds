@@ -25,7 +25,7 @@
             "name": "GroundStorable",
             "properties": {
                 "layout": "Quadrants",
-                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 }
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
             }
         },
         "file": "game:itemtypes/food/bambooshoot",
@@ -50,5 +50,4 @@
         "file": "game:itemtypes/food/bambooshoot",
         "side": "Client"
     }
-
 ]
