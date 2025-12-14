@@ -1167,4 +1167,147 @@
       "quantity": 1
     }
   },
+
+
+
+
+
+  {
+    "ingredientPattern": "L__,_K_,___",
+    "ingredients": {
+    "K": { 
+        "type": "item", 
+        "code": "game:knife-*", 
+        "isTool": true 
+    },
+    "L": { 
+        "type": "item", 
+        "code": "untamedwildsursidae:pelt-*", 
+        "allowedVariants": [
+        "female-ailuropodamelanoleuca",
+        "male-ailuropodamelanoleuca"
+        ] 
+    }
+    },
+    "width": 3,
+    "height": 3,
+    "enabled": true,
+    "output": { 
+    "type": "item", 
+    "code": "game:hide-raw-bear-panda-complete", 
+    "quantity": 1  
+  }
+},
+{
+  "ingredientPattern": "L__,_K_,___",
+  "ingredients": {
+    "K": { 
+      "type": "item", 
+      "code": "game:knife-*", 
+      "isTool": true 
+    },
+    "L": { 
+      "type": "item", 
+      "code": "untamedwildsursidae:pelt-*", 
+      "allowedVariants": [
+        "female-helarctosmalayanus",
+        "male-helarctosmalayanus",
+        "female-melursusursinus",
+        "male-melursusursinus"
+      ] 
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "enabled": true,
+  "output": { 
+    "type": "item", 
+    "code": "game:hide-raw-bear-sun-complete", 
+    "quantity": 1  
+  }
+},
+{
+  "ingredientPattern": "L__,_K_,___",
+  "ingredients": {
+    "K": { 
+      "type": "item", 
+      "code": "game:knife-*", 
+      "isTool": true 
+    },
+    "L": { 
+      "type": "item", 
+      "code": "untamedwildsursidae:pelt-*", 
+      "allowedVariants": [
+        "female-ursusmaritimus",
+        "male-ursusmaritimus"
+      ] 
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "enabled": true,
+  "output": { 
+    "type": "item", 
+    "code": "game:hide-raw-bear-polar-complete", 
+    "quantity": 1  
+  }
+},
+{
+  "ingredientPattern": "L__,_K_,___",
+  "ingredients": {
+    "K": { 
+      "type": "item", 
+      "code": "game:knife-*", 
+      "isTool": true 
+    },
+    "L": { 
+      "type": "item", 
+      "code": "untamedwildsursidae:pelt-*", 
+      "allowedVariants": [
+        "female-ursusarctos",
+        "male-ursusarctos"
+      ] 
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "enabled": true,
+  "output": { 
+    "type": "item", 
+    "code": "game:hide-raw-bear-brown-complete", 
+    "quantity": 1  
+  }
+},
+{
+  "ingredientPattern": "L__,_K_,___",
+  "ingredients": {
+    "K": { 
+      "type": "item", 
+      "code": "game:knife-*", 
+      "isTool": true 
+    },
+    "L": { 
+      "type": "item", 
+      "code": "untamedwildsursidae:pelt-*", 
+      "allowedVariants": [
+        "female-ursusthibetanus",
+        "male-ursusthibetanus",
+        "female-tremarctosornatus",
+        "male-tremarctosornatus",
+        "female-ursusamericanus",
+        "male-ursusamericanus"
+      ] 
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "enabled": true,
+  "output": { 
+    "type": "item", 
+    "code": "game:hide-raw-bear-black-complete", 
+    "quantity": 1  
+  }
+}
+
+
 ]
