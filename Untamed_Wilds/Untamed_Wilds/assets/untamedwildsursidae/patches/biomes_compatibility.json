@@ -1,6 +1,6 @@
 [
 	{
-		"file": "untamedwildsursidae:entities/land/ursidae.json",
+		"file": "untamedwildsursidae:entities/animal/mammal/ursidae.json",
 		"op": "addmerge",
 		"path": "/attributesByType",
 		"side": "Server",
