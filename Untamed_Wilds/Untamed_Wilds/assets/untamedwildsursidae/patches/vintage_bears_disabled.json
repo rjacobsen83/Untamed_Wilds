@@ -6,7 +6,7 @@
 		"path": "/server/spawnconditions/worldgen/TriesPerChunk/avg",
     	"value": 0.0,
  		"side": "Server",
-    	"file": "game:entities/animal/mammal/bear.json"
+    	"file": "game:entities/animal/mammal/bear-adult.json"
 	},
 	{
 		// Default is 0.00003
@@ -14,6 +14,6 @@
 		"path": "/server/spawnconditions/runtime/chance",
     	"value": 0.0,
  		"side": "Server",
-    	"file": "game:entities/animal/mammal/bear.json"
+    	"file": "game:entities/animal/mammal/bear-adult.json"
 	},
 ]

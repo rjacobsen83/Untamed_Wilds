@@ -37,10 +37,10 @@
 		// CHICKEN-ADULT
 		// 0 - Melee Attack
 		"op": "addmerge",
-		"path": "/server/behaviors/10/aitasks/0/entityCodes",
+		"path": "/server/behaviors/11/aitasks/0/entityCodes",
 		"value": [ "ursidae-*" ],
 		"side": "Server",
-		"file": "game:entities/animal/mammal/chicken-adult.json"
+		"file": "game:entities/animal/bird/chicken-adult.json"
 	},
 	{
 		// 4- Flee
@@ -108,7 +108,7 @@
 		"path": "/server/behaviors/10/aitasks/0/entityCodes",
 		"value": [ "ursidae-*" ],
 		"side": "Server",
-		"file": "game:entities/animal/mammal/gazelle-baby.json"
+		"file": "game:entities/animal/mammal/hooved/gazelle-baby.json"
 	},	
 	{
 		// GAZELLE-ADULT
@@ -117,7 +117,7 @@
 		"path": "/server/behaviors/9/aitasks/0/entityCodes",
 		"value": [ "ursidae-*" ],
 		"side": "Server",
-		"file": "game:entities/animal/mammal/gazelle-adult.json"
+		"file": "game:entities/animal/mammal/hooved/gazelle-adult.json"
 	},	
 	{
 		// GOAT-BABY
@@ -222,7 +222,7 @@
 		"path": "/server/behaviors/10/aitasks/0/entityCodes",
 		"value": [ "ursidae-*" ],
 		"side": "Server",
-		"file": "game:entities/animal/mammal/pig-baby.json"
+		"file": "game:entities/animal/mammal/hooved/pig-baby.json"
 	},	
 	{
 		// PIG-ADULT
@@ -274,7 +274,7 @@
 		"path": "/server/behaviors/10/aitasks/0/entityCodes",
 		"value": [ "ursidae-*" ],
 		"side": "Server",
-		"file": "game:entities/animal/mammal/sheep-baby.json"
+		"file": "game:entities/animal/mammal/hooved/sheep-baby.json"
 	},
 	{
 		// SHEEP-ADULT
@@ -283,7 +283,7 @@
 		"path": "/server/behaviors/10/aitasks/0/entityCodes",
 		"value": [ "ursidae-*" ],
 		"side": "Server",
-		"file": "game:entities/animal/mammal/sheep-adult.json"
+		"file": "game:entities/animal/mammal/hooved/sheep-adult.json"
 	},	
 	{
 		// 1 - Seek aggressiveondamage
@@ -291,7 +291,7 @@
 		"path": "/server/behaviors/10/aitasks/1/entityCodes",
 		"value": [ "ursidae-*" ],
 		"side": "Server",
-		"file": "game:entities/animal/mammal/sheep-adult.json"
+		"file": "game:entities/animal/mammal/hooved/sheep-adult.json"
 	},
 	{
 		// 2 - Flee
@@ -299,7 +299,7 @@
 		"path": "/server/behaviors/10/aitasks/2/entityCodes",
 		"value": [ "ursidae-*" ],
 		"side": "Server",
-		"file": "game:entities/animal/mammal/sheep-adult.json"
+		"file": "game:entities/animal/mammal/hooved/sheep-adult.json"
 	},		
 	{
 		// WOLF-BABY
