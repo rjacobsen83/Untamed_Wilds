@@ -1,0 +1,263 @@
+[
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"baby-helarctosmalayanus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": "item", 
+			"code": "game:hide-raw-small", 
+			"quantity": 1  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"baby-ailuropodamelanoleuca",
+					"baby-melursusursinus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": "item", 
+			"code": "game:hide-raw-small", 
+			"quantity": 2  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"baby-tremarctosornatus",
+					"baby-ursusamericanus",
+					"baby-ursusarctos",
+					"baby-ursusthibetanus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": "item", 
+			"code": "game:hide-raw-medium", 
+			"quantity": 1  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"female-helarctosmalayanus",
+					"baby-ursusmaritimus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": "item", 
+			"code": "game:hide-raw-large", 
+			"quantity": 1  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"male-helarctosmalayanus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-large", 
+			"quantity": 2  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"female-ailuropodamelanoleuca",
+					"female-melursusursinus",
+          "male-ursusthibetanus"
+
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-large", 
+			"quantity": 3  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"male-ailuropodamelanoleuca",
+					"male-melursusursinus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-large", 
+			"quantity": 4  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"female-tremarctosornatus",
+					"male-tremarctosornatus",
+					"female-ursusamericanus",
+					"male-ursusamericanus",
+					"female-ursusarctos",
+					"female-ursusthibetanus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-huge", 
+			"quantity": 2  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"male-ursusarctos",
+					"female-ursusmaritimus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-huge", 
+			"quantity": 3  
+		}
+	},
+	{
+		"ingredientPattern": "LK",
+		"ingredients": {
+			"K": { 
+				"type": "item", 
+				"code": "game:knife-*", 
+				"isTool": true 
+			},
+			"L": { 
+				"type": "item", 
+				"code": "untamedwildsursidae:pelt-*", 
+				"allowedVariants": [
+					"male-ursusmaritimus"
+				] 
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { 
+			"type": 
+			"item", 
+			"code": "game:hide-raw-huge", 
+			"quantity": 4  
+		}
+	}
+]

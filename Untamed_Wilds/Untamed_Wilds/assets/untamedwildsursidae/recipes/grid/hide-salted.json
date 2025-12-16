@@ -1,0 +1,145 @@
+[
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 3 },
+			"H": { "type": "item", "code": "pelt-raw-baby-ursusarctos", "quantity": 1}
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-baby-ursusarctos", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 4 },
+			"H": { "type": "item", "code": "pelt-raw-baby-ursusmaritimus", "quantity": 1}
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-baby-ursusmaritimus", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 8 },
+			"H": { "type": "item", "code": "pelt-raw-male-ailuropodamelanoleuca", "quantity": 1}
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-male-ailuropodamelanoleuca", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 8 },
+			"H": { "type": "item", "code": "pelt-raw-female-ailuropodamelanoleuca", "quantity": 1}
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-female-ailuropodamelanoleuca", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 6 },
+			"H": { "type": "item", "code": "pelt-raw-male-helarctosmalayanus", "name": "species", "quantity": 1}
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-male-helarctosmalayanus", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 6 },
+			"H": { "type": "item", "code": "pelt-raw-female-helarctosmalayanus", "name": "species", "quantity": 1}
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-female-helarctosmalayanus", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 18 },
+			"H": { "type": "item", "code": "pelt-raw-male-ursusarctos", "name": "species", "quantity": 1}
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-male-ursusarctos", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 18 },
+			"H": { "type": "item", "code": "pelt-raw-female-ursusarctos", "name": "species", "quantity": 1}
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-female-ursusarctos", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 20 },
+			"H": { "type": "item", "code": "pelt-raw-male-ursusmaritimus", "name": "species", "quantity": 1}
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-male-ursusmaritimus", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 20 },
+			"H": { "type": "item", "code": "pelt-raw-female-ursusmaritimus", "name": "species", "quantity": 1}
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-female-ursusmaritimus", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 1 },
+			"H": { "type": "item", "code": "pelt-raw-baby-*", "name": "species", "quantity": 1 }
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-baby-{species}", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 14 },
+			"H": { "type": "item", "code": "pelt-raw-male-*", "name": "species", "quantity": 1 }
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-male-{species}", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "F,H",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:salt", "quantity": 14 },
+			"H": { "type": "item", "code": "pelt-raw-female-*", "name": "species", "quantity": 1 }
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pelt-salted-female-{species}", "quantity": 1 }
+	}
+]

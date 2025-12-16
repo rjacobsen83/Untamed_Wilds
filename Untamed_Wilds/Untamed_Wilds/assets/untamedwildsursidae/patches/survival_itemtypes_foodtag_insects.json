@@ -1,11 +1,9 @@
 [
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributesByType/*",
     "value": {
-      "foodTags": [
-        "insect"
-      ]
+      "foodTags": [ "insect" ]
     },
     "file": "game:itemtypes/food/insect.json",
     "side": "Server"

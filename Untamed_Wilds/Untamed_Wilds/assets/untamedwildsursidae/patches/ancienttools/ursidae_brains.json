@@ -1,0 +1,29 @@
+[
+	{
+    "op": "addmerge",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+			"*-male-ailuropodamelanoleuca-*": {"avg": 0.5,"var": 0.1},
+			"*-female-ailuropodamelanoleuca-*": {"avg": 0.4,"var": 0.1},
+			"*-male-helarctosmalayanus-*": {"avg": 0.4,"var": 0.1},
+			"*-female-helarctosmalayanus-*": {"avg": 0.3,"var": 0.1},
+			"*-male-melursusursinus-*": {"avg": 0.7,"var": 0.1},
+			"*-female-melursusursinus-*": {"avg": 0.6,"var": 0.1},
+			"*-male-tremarctosornatus-*": {"avg": 0.7,"var": 0.1},
+			"*-female-tremarctosornatus-*": {"avg": 0.6,"var": 0.1},
+			"*-male-ursusamericanus-*": {"avg": 0.7,"var": 0.1},
+			"*-female-ursusamericanus-*": {"avg": 0.6,"var": 0.1},
+			"*-male-ursusarctos-*": {"avg": 1,"var": 0.2},
+			"*-female-ursusarctos-*": {"avg": 0.8,"var": 0.2},
+			"*-male-ursusmaritimus-*": {"avg": 1,"var": 0.2},
+			"*-female-ursusmaritimus-*": {"avg": 0.85,"var": 0.2}
+			}
+		},
+    "file": "ursidae:entities/animal/mammal/ursidae.json",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+	}
+]

@@ -18,7 +18,7 @@
   ],
   "variantgroups": [
     {"code": "type","states": [ "baby","female","male" ]},
-		{"code": "species","states": [ "ailuropodamelanoleuca","helarctosmalayanus","melursusursinus","tremarctosornatus","ursusamericanus","ursusarctos","ursusmaritimus","ursusthibetanus" ]},
+	{"code": "species","states": [ "ailuropodamelanoleuca","helarctosmalayanus","melursusursinus","tremarctosornatus","ursusamericanus","ursusarctos","ursusmaritimus","ursusthibetanus" ]},
     {"code": "side", "loadFromProperties": "game:abstract/horizontalorientation"}
   ],
   "attributes": {
@@ -141,14 +141,14 @@
   "resistance": 0.5,
   "lightAbsorption": 0,
 	"texturesByType": {
-		"peltmount-*-ailuropodamelanoleuca-*": { "ailuropodamelanoleuca": { "base": "entity/ursidae/{species}" } },
-		"peltmount-*-helarctosmalayanus-*": { "helarctosmalayanus": { "base": "entity/ursidae/{species}" } },
-		"peltmount-*-melursusursinus-*": { "melursusursinus": { "base": "entity/ursidae/{species}" } },
-		"peltmount-*-tremarctosornatus-*": { "tremarctosornatus": { "base": "entity/ursidae/{species}" } },
-		"peltmount-*-ursusamericanus-*": { "ursusamericanus": { "base": "entity/ursidae/{species}" } },
-		"peltmount-*-ursusarctos-*": { "ursusarctos": { "base": "entity/ursidae/{species}" } },
-		"peltmount-*-ursusmaritimus-*": { "ursusmaritimus": { "base": "entity/ursidae/{species}" } },
-		"peltmount-*-ursusthibetanus-*": { "ursusthibetanus": { "base": "entity/ursidae/{species}" } }
+		"peltmount-*-ailuropodamelanoleuca-*": { "ailuropodamelanoleuca": { "base": "entity/animal/mammal/{species}" } },
+		"peltmount-*-helarctosmalayanus-*": { "helarctosmalayanus": { "base": "entity/animal/mammal/{species}" } },
+		"peltmount-*-melursusursinus-*": { "melursusursinus": { "base": "entity/animal/mammal/{species}" } },
+		"peltmount-*-tremarctosornatus-*": { "tremarctosornatus": { "base": "entity/animal/mammal/{species}" } },
+		"peltmount-*-ursusamericanus-*": { "ursusamericanus": { "base": "entity/animal/mammal/{species}" } },
+		"peltmount-*-ursusarctos-*": { "ursusarctos": { "base": "entity/animal/mammal/{species}" } },
+		"peltmount-*-ursusmaritimus-*": { "ursusmaritimus": { "base": "entity/animal/mammal/{species}" } },
+		"peltmount-*-ursusthibetanus-*": { "ursusthibetanus": { "base": "entity/animal/mammal/{species}" } }
 	},
   "selectionBoxByType": {
     "*-down": {"x1": 0.15,"y1": 0.15,"z1": 0.0,"x2": 0.85,"y2": 0.85,"z2": 0.1},

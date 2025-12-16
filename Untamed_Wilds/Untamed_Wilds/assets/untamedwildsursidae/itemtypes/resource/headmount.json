@@ -52,26 +52,19 @@
     }
   },
   "shapebytype": {
-    "*-ailuropodamelanoleuca": {"base": "item/ursidae/{species}/headmount-ailuropodamelanoleuca"},
-    "*-helarctosmalayanus": {"base": "item/ursidae/{species}/headmount-helarctosmalayanus"},
-    "*-melursusursinus": {"base": "item/ursidae/{species}/headmount-melursusursinus"},
-    "*-tremarctosornatus": {"base": "item/ursidae/{species}/headmount-tremarctosornatus"},
-    "*-ursusamericanus": {"base": "item/ursidae/{species}/headmount-ursusamericanus"},
-    "*-ursusarctos": {"base": "item/ursidae/{species}/headmount-ursusarctos"},
-    "*-ursusmaritimus": {"base": "item/ursidae/{species}/headmount-ursusmaritimus"},
-    "*-ursusthibetanus": {"base": "item/ursidae/{species}/headmount-ursusthibetanus"}
+    "*-ailuropodamelanoleuca": {"base": "item/animal/mammal/ursidae/{species}/headmount-{species}"},
   },
   "creativeinventory": {"general": [ "*" ], "decorative": [ "*" ]
   },
   "texturesByType": {
-    "*-ailuropodamelanoleuca": {"ailuropodamelanoleuca": {"base": "entity/ursidae/{species}"}},
-    "*-helarctosmalayanus": {"helarctosmalayanus": {"base": "entity/ursidae/{species}"}},
-    "*-melursusursinus": {"melursusursinus": {"base": "entity/ursidae/{species}"}},
-    "*-tremarctosornatus": {"tremarctosornatus": {"base": "entity/ursidae/{species}"}},
-    "*-ursusamericanus": {"ursusamericanus": {"base": "entity/ursidae/{species}"}},
-    "*-ursusarctos": {"ursusarctos": {"base": "entity/ursidae/{species}"}},
-    "*-ursusmaritimus": {"ursusmaritimus": {"base": "entity/ursidae/{species}"}},
-    "*-ursusthibetanus": {"ursusthibetanus": {"base": "entity/ursidae/{species}"}}
+    "*-ailuropodamelanoleuca": {"ailuropodamelanoleuca": {"base": "entity/animal/mammal/{species}"}},
+    "*-helarctosmalayanus": {"helarctosmalayanus": {"base": "entity/animal/mammal/{species}"}},
+    "*-melursusursinus": {"melursusursinus": {"base": "entity/animal/mammal/{species}"}},
+    "*-tremarctosornatus": {"tremarctosornatus": {"base": "entity/animal/mammal/{species}"}},
+    "*-ursusamericanus": {"ursusamericanus": {"base": "entity/animal/mammal/{species}"}},
+    "*-ursusarctos": {"ursusarctos": {"base": "entity/animal/mammal/{species}"}},
+    "*-ursusmaritimus": {"ursusmaritimus": {"base": "entity/animal/mammal/{species}"}},
+    "*-ursusthibetanus": {"ursusthibetanus": {"base": "entity/animal/mammal/{species}"}}
   },
   "combustibleProps": {
     "burnTemperature": 400,
@@ -83,11 +76,11 @@
   },
   "guiTransformByType": {
     "*": {
-     "translation": {"x": 0,"y": 0,"z": 0},
+    "translation": {"x": 0,"y": 0,"z": 0},
     "rotation": {"x": -180,"y": -110,"z": 0},
     "origin": {"x": 1,"y": 0.5,"z": 0.5},
     "scale": 2.0
-      }
+    }
   },
   "groundTransform": {
     "translation": {"x": 0.5,"y": 0,"z": 0},

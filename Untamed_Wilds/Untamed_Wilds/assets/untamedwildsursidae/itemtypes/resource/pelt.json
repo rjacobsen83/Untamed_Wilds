@@ -4,43 +4,116 @@
 			{ "name": "GroundStorable", "properties": { "layout": 'SingleCenter', "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 } } }
 		],
 	"variantgroups": [
-		{"code": "type","states": [ "baby","female","male" ]},
+		{"code": "type", "states": [ "raw", "oiled", "pelt", "salted" ]},
+		{"code": "gender","states": [ "baby","female","male" ]},
 		{"code": "species","states": [ "ailuropodamelanoleuca","helarctosmalayanus","melursusursinus","tremarctosornatus","ursusamericanus","ursusarctos","ursusmaritimus","ursusthibetanus" ]}
 	],
 	"allowedVariants": [
-		"pelt-female-*",
-		"pelt-male-*",
-		"pelt-baby-*"
+		"*-raw-*",
+		"*-oiled-*",
+		"*-pelt-*",
+		"*-salted-*"
 	],
 	"shapebytype": {
-		"*-ailuropodamelanoleuca": { "base": "item/ursidae/{species}/ailuropodamelanoleucapelt" },
-		"*-helarctosmalayanus": { "base": "item/ursidae/{species}/helarctosmalayanuspelt" },
-		"*-melursusursinus": { "base": "item/ursidae/{species}/melursusursinuspelt" },
-		"*-tremarctosornatus": { "base": "item/ursidae/{species}/tremarctosornatuspelt" },
-		"*-ursusamericanus": { "base": "item/ursidae/{species}/ursusamericanuspelt" },
-		"*-ursusarctos": { "base": "item/ursidae/{species}/ursusarctospelt" },
-		"*-ursusmaritimus": { "base": "item/ursidae/{species}/ursusmaritimuspelt" },
-		"*-ursusthibetanus": { "base": "item/ursidae/{species}/ursusthibetanuspelt" }
+		"*-ailuropodamelanoleuca": { "base": "item/animal/mammal/ursidae/{species}/ailuropodamelanoleucapelt" },
+		"*-helarctosmalayanus": { "base": "item/animal/mammal/ursidae/{species}/helarctosmalayanuspelt" },
+		"*-melursusursinus": { "base": "item/animal/mammal/ursidae/{species}/melursusursinuspelt" },
+		"*-tremarctosornatus": { "base": "item/animal/mammal/ursidae/{species}/tremarctosornatuspelt" },
+		"*-ursusamericanus": { "base": "item/animal/mammal/ursidae/{species}/ursusamericanuspelt" },
+		"*-ursusarctos": { "base": "item/animal/mammal/ursidae/{species}/ursusarctospelt" },
+		"*-ursusmaritimus": { "base": "item/animal/mammal/ursidae/{species}/ursusmaritimuspelt" },
+		"*-ursusthibetanus": { "base": "item/animal/mammal/ursidae/{species}/ursusthibetanuspelt" }
 	},
 	"texturesByType": {
-		"*-ailuropodamelanoleuca": { "ailuropodamelanoleuca": { "base": "entity/ursidae/ailuropodamelanoleuca" } },
-		"*-helarctosmalayanus": { "helarctosmalayanus": { "base": "entity/ursidae/helarctosmalayanus" } },
-		"*-melursusursinus": { "melursusursinus": { "base": "entity/ursidae/melursusursinus" } },
-		"*-tremarctosornatus": { "tremarctosornatus": { "base": "entity/ursidae/tremarctosornatus" } },
-		"*-ursusamericanus": { "ursusamericanus": { "base": "entity/ursidae/ursusamericanus" } },
-		"*-ursusarctos": { "ursusarctos": { "base": "entity/ursidae/ursusarctos" } },
-		"*-ursusmaritimus": { "ursusmaritimus": { "base": "entity/ursidae/ursusmaritimus" } },
-		"*-ursusthibetanus": { "ursusthibetanus": { "base": "entity/ursidae/ursusthibetanus" } }
+		"raw-*-ailuropodamelanoleuca": { "ailuropodamelanoleuca": { "base": "entity/animal/mammal/ailuropodamelanoleuca" },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"oiled-*-ailuropodamelanoleuca": { "ailuropodamelanoleuca": { "base": "entity/animal/mammal/ailuropodamelanoleuca", "overlays": ["game:item/resource/hide/oiled"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"salted-*-ailuropodamelanoleuca": { "ailuropodamelanoleuca": { "base": "entity/animal/mammal/ailuropodamelanoleuca", "overlays": ["game:item/resource/hide/salt"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"pelt-*-ailuropodamelanoleuca": { "ailuropodamelanoleuca": { "base": "entity/animal/mammal/ailuropodamelanoleuca" },"bottom": {"base": "game:item/resource/hide/pelt"} },
+		"raw-*-helarctosmalayanus": { "helarctosmalayanus": { "base": "entity/animal/mammal/helarctosmalayanus" },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"oiled-*-helarctosmalayanus": { "helarctosmalayanus": { "base": "entity/animal/mammal/helarctosmalayanus", "overlays": ["game:item/resource/hide/oiled"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"salted-*-helarctosmalayanus": { "helarctosmalayanus": { "base": "entity/animal/mammal/helarctosmalayanus", "overlays": ["game:item/resource/hide/salt"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"pelt-*-helarctosmalayanus": { "helarctosmalayanus": { "base": "entity/animal/mammal/helarctosmalayanus" },"bottom": {"base": "game:item/resource/hide/pelt"} },		
+		"raw-*-melursusursinus": { "melursusursinus": { "base": "entity/animal/mammal/melursusursinus" },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"oiled-*-melursusursinus": { "melursusursinus": { "base": "entity/animal/mammal/melursusursinus", "overlays": ["game:item/resource/hide/oiled"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"salted-*-melursusursinus": { "melursusursinus": { "base": "entity/animal/mammal/melursusursinus", "overlays": ["game:item/resource/hide/salt"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"pelt-*-melursusursinus": { "melursusursinus": { "base": "entity/animal/mammal/melursusursinus" },"bottom": {"base": "game:item/resource/hide/pelt"} },		
+		"raw-*-tremarctosornatus": { "tremarctosornatus": { "base": "entity/animal/mammal/tremarctosornatus" },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"oiled-*-tremarctosornatus": { "tremarctosornatus": { "base": "entity/animal/mammal/tremarctosornatus", "overlays": ["game:item/resource/hide/oiled"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"salted-*-tremarctosornatus": { "tremarctosornatus": { "base": "entity/animal/mammal/tremarctosornatus", "overlays": ["game:item/resource/hide/salt"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"pelt-*-tremarctosornatus": { "tremarctosornatus": { "base": "entity/animal/mammal/tremarctosornatus" },"bottom": {"base": "game:item/resource/hide/pelt"} },		
+		"raw-*-ursusamericanus": { "ursusamericanus": { "base": "entity/animal/mammal/ursusamericanus" },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"oiled-*-ursusamericanus": { "ursusamericanus": { "base": "entity/animal/mammal/ursusamericanus", "overlays": ["game:item/resource/hide/oiled"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"salted-*-ursusamericanus": { "ursusamericanus": { "base": "entity/animal/mammal/ursusamericanus", "overlays": ["game:item/resource/hide/salt"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"pelt-*-ursusamericanus": { "ursusamericanus": { "base": "entity/animal/mammal/ursusamericanus" },"bottom": {"base": "game:item/resource/hide/pelt"} },		
+		"raw-*-ursusarctos": { "ursusarctos": { "base": "entity/animal/mammal/ursusarctos" },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"oiled-*-ursusarctos": { "ursusarctos": { "base": "entity/animal/mammal/ursusarctos", "overlays": ["game:item/resource/hide/oiled"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"salted-*-ursusarctos": { "ursusarctos": { "base": "entity/animal/mammal/ursusarctos", "overlays": ["game:item/resource/hide/salt"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"pelt-*-ursusarctos": { "ursusarctos": { "base": "entity/animal/mammal/ursusarctos" },"bottom": {"base": "game:item/resource/hide/pelt"} },		
+		"raw-*-ursusmaritimus": { "ursusmaritimus": { "base": "entity/animal/mammal/ursusmaritimus" },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"oiled-*-ursusmaritimus": { "ursusmaritimus": { "base": "entity/animal/mammal/ursusmaritimus", "overlays": ["game:item/resource/hide/oiled"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"salted-*-ursusmaritimus": { "ursusmaritimus": { "base": "entity/animal/mammal/ursusmaritimus", "overlays": ["game:item/resource/hide/salt"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"pelt-*-ursusmaritimus": { "ursusmaritimus": { "base": "entity/animal/mammal/ursusmaritimus" },"bottom": {"base": "game:item/resource/hide/pelt"} },		
+		"raw-*-ursusthibetanus": { "ursusthibetanus": { "base": "entity/animal/mammal/ursusthibetanus" },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"oiled-*-ursusthibetanus": { "ursusthibetanus": { "base": "entity/animal/mammal/ursusthibetanus", "overlays": ["game:item/resource/hide/oiled"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"salted-*-ursusthibetanus": { "ursusthibetanus": { "base": "entity/animal/mammal/ursusthibetanus", "overlays": ["game:item/resource/hide/salt"] },"bottom": {"base": "game:item/resource/hide/flesh"} },
+		"pelt-*-ursusthibetanus": { "ursusthibetanus": { "base": "entity/animal/mammal/ursusthibetanus" },"bottom": {"base": "game:item/resource/hide/pelt"} }
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
-	"maxstacksize": 64,
+	"maxstacksize": 8,
+	"transitionablePropsByType": {
+		"pelt-oiled-*":	[
+			{
+				"type": "Cure",
+				"freshHours": { "avg": 0 },
+				"transitionHours": { "avg": 48 },
+				"transitionedStack": { "type": "item", "code": "pelt-pelt-{gender}-{species}" },
+				"transitionRatio": 1
+			}
+		],			
+		"pelt-raw-*": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 120 },
+				"transitionHours": { "avg": 24 },
+				"transitionedStack": { "type": "item", "code": "game:rot" },
+				"transitionRatioByType": {
+					"*-male-ailuropodamelanoleuca-*": 7,"*-female-ailuropodamelanoleuca-*": 6,"*-baby-*": 1,
+					"*-male-helarctosmalayanus-*": 7,"*-female-helarctosmalayanus-*": 6,
+					"*-male-melursusursinus-*": 15,"*-female-melursusursinus-*": 14,
+					"*-male-tremarctosornatus-*": 15,"*-female-tremarctosornatus-*": 14,
+					"*-male-ursusamericanus-*": 15,"*-female-ursusamericanus-*": 14,
+					"*-male-ursusarctos-*": 18,"*-female-ursusarctos-*": 16,"*-baby-ursusarctos-*": 3,
+					"*-male-ursusmaritimus-*": 18,"*-female-ursusmaritimus-*": 16,"*-baby-ursusmaritimus-*": 3,
+					"*-male-ursusthibetanus-*": 15,"*-female-ursusthibetanus-*": 14
+				}
+			}
+		],
+		"pelt-salted-*": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 2000 },
+				"transitionHours": { "avg": 592 },
+				"transitionedStack": { "type": "item", "code": "game:rot" },
+				"transitionRatioByType": {
+					"*-male-ailuropodamelanoleuca-*": 7,"*-female-ailuropodamelanoleuca-*": 6,"*-baby-*": 1,
+					"*-male-helarctosmalayanus-*": 7,"*-female-helarctosmalayanus-*": 6,
+					"*-male-melursusursinus-*": 15,"*-female-melursusursinus-*": 14,
+					"*-male-tremarctosornatus-*": 15,"*-female-tremarctosornatus-*": 14,
+					"*-male-ursusamericanus-*": 15,"*-female-ursusamericanus-*": 14,
+					"*-male-ursusarctos-*": 18,"*-female-ursusarctos-*": 16,"*-baby-ursusarctos-*": 3,
+					"*-male-ursusmaritimus-*": 18,"*-female-ursusmaritimus-*": 16,"*-baby-ursusmaritimus-*": 3,
+					"*-male-ursusthibetanus-*": 15,"*-female-ursusthibetanus-*": 14
+				}
+			}
+		]
+	},
 	"attributes": {
-		"handbook": {"groupBy": ["pelt-*"]},
+		"handbook": {"groupBy": ["floorpelt-*"]},
 		"displaycaseable": false, 
 		"shelvable": false,
 		"rackable": false,
 		"groundStorageTransformByType": {
-			"pelt-female-ailuropodamelanoleuca": {"rotation": { "x": 0, "y": 90, "z": 0 },"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },"scale": 0.85},
+			"pelt-female-ailuropodamelanoleuca": {"rotation": { "x": 0, "y": 270, "z": 0 },"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },"scale": 0.85},
 			"pelt-male-ailuropodamelanoleuca": {"rotation": { "x": 0, "y": 90, "z": 0 },"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },"scale": 1},
 			"pelt-baby-ailuropodamelanoleuca": {"rotation": { "x": 0, "y": 90, "z": 0 },"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },"scale": 0.4},
 			"pelt-female-helarctosmalayanus": {"rotation": { "x": 0, "y": 90, "z": 0 },"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },"scale": 0.7},	

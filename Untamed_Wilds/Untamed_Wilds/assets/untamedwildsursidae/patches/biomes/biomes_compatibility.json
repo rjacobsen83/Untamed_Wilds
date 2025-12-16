@@ -1,8 +1,8 @@
 [
 	{
-		"file": "untamedwildsursidae:entities/animal/mammal/ursidae.json",
 		"op": "addmerge",
 		"path": "/attributesByType",
+		"file": "untamedwildsursidae:entities/animal/mammal/ursidae.json",
 		"side": "Server",
 		"value": {
 			"*-ailuropodamelanoleuca": {

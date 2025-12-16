@@ -2,9 +2,7 @@
   {
     "op": "addmerge",
     "path": "/attributes/foodTags",
-    "value": [
-      "fish"
-    ],
+    "value": [ "fish" ],
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
   }
