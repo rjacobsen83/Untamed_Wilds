@@ -141,7 +141,7 @@
   "replaceable": 5001,
   "resistance": 0.5,
   "lightAbsorption": 0,
-	"texturesByType": {
+  "texturesByType": {
 		"peltmount-*-*-ailuropodamelanoleuca-*": { "ailuropodamelanoleuca": { "base": "entity/animal/mammal/{species}" } },
 		"peltmount-*-*-helarctosmalayanus-*": { "helarctosmalayanus": { "base": "entity/animal/mammal/{species}" } },
 		"peltmount-*-*-melursusursinus-*": { "melursusursinus": { "base": "entity/animal/mammal/{species}" } },
