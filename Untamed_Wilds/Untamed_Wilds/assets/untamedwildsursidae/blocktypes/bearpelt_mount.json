@@ -1,0 +1,59 @@
+{
+  "code": "bearpeltmount",
+  "behaviors": [
+    { "name": "Lockable" },
+    { "name": "RightClickPickup" },
+    {
+      "name": "WallMounted",
+      "properties": {
+      "allowedItems": ["untamedwildsursidae:pelt-*", "game:sign", "game:banner"],
+        "mountOffset": { "x": 0, "y": 0, "z": -0.01 },
+        "mountRotation": { "x": 0, "y": 0, "z": 0 }
+      }
+    }
+  ],
+  "attributes": {
+    "types": ["shield"],
+    "handbook": {
+      "groupBy": ["peltmount-*"]
+    },
+  },
+  "shape": { "base": "block/mount-bearpelt/mount-bearpelt-shield" },
+  "textures": {
+    "wood": { "base": "game:block/wood/debarked/oak" },
+    "lead2": { "base": "game:block/metal/sheet/lead2" }
+  },
+  "placeableOn": "side",
+  "collisionbox": null,
+  "selectionbox": {
+    "x1": 0.45, "y1": 0.45, "z1": 0,
+    "x2": 0.55, "y2": 0.55, "z2": 0.1
+  },
+  "creativeinventory": {
+    "general": ["bearpeltmount"],
+    "decorative": ["bearpeltmount"]
+  },
+  "blockmaterial": "Wood",
+  "replaceable": 900,
+  "resistance": 1.5,
+  "lightAbsorption": 1,
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  "sounds": {
+    "place": "game:block/planks",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1, "y": -0.29, "z": 0.05 },
+    "rotation": { "x": 3, "y": 12, "z": -25 },
+    "origin": { "x": 0.5, "y": 0.5, "z": 0 },
+    "scale": 0.6
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0, "y": -0.05, "z": 1.1 },
+    "rotation": { "x": 0, "y": -130, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.5, "z": 0 }
+  }
+}
