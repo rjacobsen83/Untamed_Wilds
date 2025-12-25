@@ -88,7 +88,7 @@
 					{ weight: 1,   "code": "bamboo" },
 					{ weight: 0.0, "code": "egg" },
 					{ weight: 0.0, "code": "fish" },
-					{ weight: 1,   "code": "fruit" },
+					{ weight: 0.0, "code": "fruit" },
 					{ weight: 0.0, "code": "fruitmash" },
 					{ weight: 0.0, "code": "grain" },
 					{ weight: 0.0, "code": "grass" },
@@ -99,37 +99,191 @@
 					{ weight: 0.0, "code": "sweetBerryBush" },
 					{ weight: 0.0, "code": "tastyvegetable" }
 				]
+			},
+			"*-helarctosmalayanus": {
+				weightedFoodTags: [
+				   { "weight": 0.0, "code": "bamboo" },
+				   { "weight": 0.0, "code": "egg" },
+				   { "weight": 1.0, "code": "insect" },
+				   { "weight": 0.8, "code": "fruit" },
+				   { "weight": 0.7, "code": "fruitmash" },
+				   { "weight": 0.6, "code": "sweetBerryBush" },
+				   { "weight": 0.4, "code": "tastyvegetable" },
+				   { "weight": 0.3, "code": "peanut" },
+				   { "weight": 0.2, "code": "grain" },
+				   { "weight": 0.1, "code": "meat" },
+				   { "weight": 0.05,"code": "fish" },
+				   { "weight": 0.0, "code": "grass" },
+				   { "weight": 0.0, "code": "nibbleCrop" }
+				]
+			},
+			"*-melursusursinus": {
+				"weightedFoodTags": [
+				   { "weight": 0.0, "code": "bamboo" },
+				   { "weight": 0.0, "code": "egg" },
+				   { "weight": 1.0, "code": "insect" },
+				   { "weight": 0.9, "code": "fruit" },
+				   { "weight": 0.8, "code": "fruitmash" },
+				   { "weight": 0.7, "code": "sweetBerryBush" },
+				   { "weight": 0.5, "code": "tastyvegetable" },
+				   { "weight": 0.4, "code": "peanut" },
+				   { "weight": 0.3, "code": "grain" },
+				   { "weight": 0.2, "code": "meat" },
+				   { "weight": 0.1, "code": "fish" },
+				   { "weight": 0.0, "code": "grass" },
+				   { "weight": 0.0, "code": "nibbleCrop" }
+				]
+			},
+			"*-tremarctosornatus": {
+				"weightedFoodTags": [
+				   { "weight": 0.0, "code": "bamboo" },
+				   { "weight": 0.0, "code": "egg" },
+				   { "weight": 0.7, "code": "insect" },
+				   { "weight": 1.0, "code": "fruit" },
+				   { "weight": 0.9, "code": "fruitmash" },
+				   { "weight": 0.85,"code": "sweetBerryBush" },
+				   { "weight": 0.6, "code": "tastyvegetable" },
+				   { "weight": 0.5, "code": "peanut" },
+				   { "weight": 0.4, "code": "grain" },
+				   { "weight": 0.3, "code": "meat" },
+				   { "weight": 0.2, "code": "fish" },
+				   { "weight": 0.0, "code": "grass" },
+				   { "weight": 0.0, "code": "nibbleCrop" }
+				]
+			},
+			"*-ursusamericanus": {
+				"weightedFoodTags": [
+				   { "weight": 0.0, "code": "bamboo" },
+				   { "weight": 0.2, "code": "egg" },
+				   { "weight": 0.8, "code": "insect" },
+				   { "weight": 1.0, "code": "fruit" },
+				   { "weight": 0.9, "code": "fruitmash" },
+				   { "weight": 0.85,"code": "sweetBerryBush" },
+				   { "weight": 0.7, "code": "tastyvegetable" },
+				   { "weight": 0.6, "code": "peanut" },
+				   { "weight": 0.5, "code": "grain" },
+				   { "weight": 0.6, "code": "meat" },
+				   { "weight": 0.7, "code": "fish" },
+				   { "weight": 0.0, "code": "grass" },
+				   { "weight": 0.0, "code": "nibbleCrop" }
+				]
+			},
+			"*-ursusarctos": {
+				"weightedFoodTags": [
+				   { "weight": 0.0, "code": "bamboo" },
+				   { "weight": 0.3, "code": "egg" },
+				   { "weight": 0.5, "code": "insect" },
+				   { "weight": 0.8, "code": "fruit" },
+				   { "weight": 0.7, "code": "fruitmash" },
+				   { "weight": 0.75,"code": "sweetBerryBush" },
+				   { "weight": 0.6, "code": "tastyvegetable" },
+				   { "weight": 0.7, "code": "peanut" },
+				   { "weight": 0.6, "code": "grain" },
+				   { "weight": 0.9, "code": "meat" },
+				   { "weight": 0.8, "code": "fish" },
+				   { "weight": 0.0, "code": "grass" },
+				   { "weight": 0.0, "code": "nibbleCrop" }
+				]
+			},
+			"*-ursusmaritimus": {
+				"weightedFoodTags": [
+				   { "weight": 0.0, "code": "bamboo" },
+				   { "weight": 0.1, "code": "egg" },
+				   { "weight": 0.0, "code": "insect" },
+				   { "weight": 0.0, "code": "fruit" },
+				   { "weight": 0.0, "code": "fruitmash" },
+				   { "weight": 0.0, "code": "sweetBerryBush" },
+				   { "weight": 0.0, "code": "tastyvegetable" },
+				   { "weight": 0.0, "code": "peanut" },
+				   { "weight": 0.0, "code": "grain" },
+				   { "weight": 1.0, "code": "meat" },
+				   { "weight": 0.9, "code": "fish" },
+				   { "weight": 0.0, "code": "grass" },
+				   { "weight": 0.0, "code": "nibbleCrop" }
+				]
+			},
+			"*-ursusthibetanus": {
+				"weightedFoodTags": [
+				   { "weight": 0.0, "code": "bamboo" },
+				   { "weight": 0.3, "code": "egg" },
+				   { "weight": 0.9, "code": "insect" },
+				   { "weight": 0.95,"code": "fruit" },
+				   { "weight": 0.85,"code": "fruitmash" },
+				   { "weight": 0.8, "code": "sweetBerryBush" },
+				   { "weight": 0.7, "code": "tastyvegetable" },
+				   { "weight": 0.6, "code": "peanut" },
+				   { "weight": 0.5, "code": "grain" },
+				   { "weight": 0.4, "code": "meat" },
+				   { "weight": 0.3, "code": "fish" },
+				   { "weight": 0.0, "code": "grass" },
+				   { "weight": 0.0, "code": "nibbleCrop" }
+				]
 			}
 		},
 		trappableByType: {
 			"ursidae-adult-*-ailuropodamelanoleuca": {
-				"small": { trapChance: 1.0,	trapDestroyChance: 0.85 },
-				"large": { trapChance: 1.0,	trapDestroyChance: 0.35 }
-			}
-		}
-	},
-
-	behaviorConfigs: {
-		controlledphysics: {
-		floatupwhenstuck: { "onlyWhenDead": true },
-		despawn: { "minPlayerDistance": 16, "belowLightLevel": 8, "minSeconds": 300 },
-			stepHeightByType: {
-				"*-adult-*-ailuropodamelanoleuca": 3.1251,
-				"*-baby-*-ailuropodamelanoleuca": 2.1251,
-				"*-adult-*-helarctosmalayanus": 2.1251,
-				"*-baby-*-helarctosmalayanus": 2.1251,
-				"*-adult-*-melursusursinus": 3.1251,
-				"*-baby-*-melursusursinus": 2.1251,
-				"*-adult-*-tremarctosornatus": 3.1251,
-				"*-baby-*-tremarctosornatus": 2.1251,
-				"*-adult-*-ursusamericanus": 3.1251,
-				"*-baby-*-ursusamericanus": 2.1251,
-				"*-adult-*-ursusarctos": 3.1251,
-				"*-baby-*-ursusarctos": 2.1251,
-				"*-adult-*-ursusmaritimus": 2.8751,
-				"*-baby-*-ursusmaritimus": 2.1251,
-				"*-adult-*-ursusthibetanus": 3.1251,
-				"*-baby-*-ursusthibetanus": 2.1251
+				"small": { trapChance: 0.0,	 trapDestroyChance: 0.65 },
+				"large": { trapChance: 0.35, trapDestroyChance: 0.15 },
+			},
+			"ursidae-baby-*-ailuropodamelanoleuca": {
+				"small": { trapChance: 0.15, trapDestroyChance: 0.15 },
+				"large": { trapChance: 0.75, trapDestroyChance: 0.0 },
+			},
+			"ursidae-adult-*-helarctosmalayanus": {
+				"small": { trapChance: 0.0,	 trapDestroyChance: 0.65 },
+				"large": { trapChance: 0.35, trapDestroyChance: 0.25 },
+			},
+			"ursidae-baby-*-helarctosmalayanus": {
+				"small": { trapChance: 0.15, trapDestroyChance: 0.15 },
+				"large": { trapChance: 0.75, trapDestroyChance: 0.0 },
+			},
+			"ursidae-adult-*-melursusursinus": {
+				"small": { trapChance: 0.0,	 trapDestroyChance: 0.65 },
+				"large": { trapChance: 0.0,  trapDestroyChance: 0.15 },
+			},
+			"ursidae-baby-*-melursusursinus": {
+				"small": { trapChance: 0.0,  trapDestroyChance: 0.15 },
+				"large": { trapChance: 0.75, trapDestroyChance: 0.05 },
+			},
+			"ursidae-adult-*-tremarctosornatus": {
+				"small": { trapChance: 0.0,	 trapDestroyChance: 0.65 },
+				"large": { trapChance: 0.0,  trapDestroyChance: 0.15 },
+			},
+			"ursidae-baby-*-tremarctosornatus": {
+				"small": { trapChance: 0.0,  trapDestroyChance: 0.15 },
+				"large": { trapChance: 0.75, trapDestroyChance: 0.05 },
+			},
+			"ursidae-adult-*-ursusamericanus": {
+				"small": { trapChance: 0.0,	trapDestroyChance: 0.75 },
+				"large": { trapChance: 0.0, trapDestroyChance: 0.25 },
+			},
+			"ursidae-baby-*-ursusamericanus": {
+				"small": { trapChance: 0.0, trapDestroyChance: 0.15 },
+				"large": { trapChance: 0.65,trapDestroyChance: 0.05 },
+			},
+			"ursidae-adult-*-ursusarctos": {
+				"small": { trapChance: 0.0,	trapDestroyChance: 0.75 },
+				"large": { trapChance: 0.0, trapDestroyChance: 0.35 },
+			},
+			"ursidae-baby-*-ursusarctos": {
+				"small": { trapChance: 0.0, trapDestroyChance: 0.15 },
+				"large": { trapChance: 0.55,trapDestroyChance: 0.15 },
+			},
+			"ursidae-adult-*-ursusmaritimus": {
+				"small": { trapChance: 0.0,	trapDestroyChance: 0.85 },
+				"large": { trapChance: 0.0, trapDestroyChance: 0.45 },
+			},
+			"ursidae-baby-*-ursusmaritimus": {
+				"small": { trapChance: 0.0,	trapDestroyChance: 0.85 },
+				"large": { trapChance: 0.5,	trapDestroyChance: 0.35 },
+			},
+			"ursidae-adult-*-ursusthibetanus": {
+				"small": { trapChance: 0.0,	trapDestroyChance: 0.75 },
+				"large": { trapChance: 0.0, trapDestroyChance: 0.25 },
+			},
+			"ursidae-baby-*-ursusthibetanus": {
+				"small": { trapChance: 0.0, trapDestroyChance: 0.15 },
+				"large": { trapChance: 0.65,trapDestroyChance: 0.05 }
 			}
 		}
 	},
@@ -183,12 +337,33 @@
 			},
 		behaviors: [
 			{ code: "repulseagents" },
-			{ code: "controlledphysics" },
+			{ code: "controlledphysics",
+				stepHeightByType: {
+					"*-adult-*-ailuropodamelanoleuca": 3.1251,
+					"*-baby-*-ailuropodamelanoleuca": 2.1251,
+					"*-adult-*-helarctosmalayanus": 2.1251,
+					"*-baby-*-helarctosmalayanus": 2.1251,
+					"*-adult-*-melursusursinus": 3.1251,
+					"*-baby-*-melursusursinus": 2.1251,
+					"*-adult-*-tremarctosornatus": 3.1251,
+					"*-baby-*-tremarctosornatus": 2.1251,
+					"*-adult-*-ursusamericanus": 3.1251,
+					"*-baby-*-ursusamericanus": 2.1251,
+					"*-adult-*-ursusarctos": 3.1251,
+					"*-baby-*-ursusarctos": 2.1251,
+					"*-adult-*-ursusmaritimus": 2.8751,
+					"*-baby-*-ursusmaritimus": 2.1251,
+					"*-adult-*-ursusthibetanus": 3.1251,
+					"*-baby-*-ursusthibetanus": 2.1251
+				} 
+			},
+			{ code: "floatupwhenstuck","onlyWhenDead": true },
 			{ code: "interpolateposition" },
-			{ code: "floatupwhenstuck" },
 			{ code: "harvestable" },
-			{ code: "despawn" },
+			{ code: "despawn","minPlayerDistance": 30,"belowLightLevel": 8,"minSeconds": 300, afterDays: 21 },
 			{ code: "multiply", "enabledByType": { "*-adult-female-*": true, "*": false } },
+			{ code: "ropetieable", "minGeneration": 3 }
+
 		],
 		animations: [
 			{
@@ -201,14 +376,14 @@
 			{
 				code: "stand",
 				animation: "Stand",
-				easeOutSpeed: 3,
-				weight: 10,
-				blendMode: "AddAverage"
+				easeOutSpeed: 2,
+				weight: 1,
+				blendMode: "Average"
 			},
 			{
 				code: "hurt",
 				animation: "Hurt",
-				animationSpeed: 2.2,
+				animationSpeed: 2.0,
 				weight: 10,
 				blendMode: "AddAverage"
 			},
@@ -234,15 +409,17 @@
 			{
 				code: "sleep",
 				animation: "Sleep",
-				easeInSpeed: 2,
+				easeInSpeed: 4,
 				easeOutSpeed: 4,
+				weight: 1.25,
 				blendMode: "Average"
 			},
 			{
 				code: "sit",
 				animation: "Sit",
-				easeInSpeed: 1,
-				easeOutSpeed: 0.5,
+				easeInSpeed: 4,
+				easeOutSpeed: 3,
+				supressDefaultAnimation: true,				
 				blendMode: "Average"
 			},
 			{
@@ -255,10 +432,9 @@
 			{
 				code: "lie",
 				animation: "Lie",
-				easeInSpeed: 2,
-				easeOutSpeed: 2,
-				weight: 5,
-				blendMode: "AddAverage"
+				easeInSpeed: 4,
+				easeOutSpeed: 3,
+				blendMode: "Average"
 			},
 			{
 				code: "swim",
@@ -289,36 +465,28 @@
 		},
 		behaviors: [
 			{ code: "repulseagents" },
-			{ code: "controlledphysics" },
-			{ code: "despawn" },
-			{ 
-				code: "health",
-				currenthealthByType: {
-					"*-adult-female-ailuropodamelanoleuca": 45,
-					"*-adult-female-helarctosmalayanus": 34,
-					"*-adult-female-melursusursinus": 40,
-					"*-adult-female-tremarctosornatus": 48,
-					"*-adult-female-ursusamericanus": 54,
-					"*-adult-female-ursusarctos": 72,
-					"*-adult-female-ursusmaritimus": 80,
-					"*-adult-female-ursusthibetanus": 56,
-					"*-adult-male-ailuropodamelanoleuca": 50,
-					"*-adult-male-helarctosmalayanus": 38,
-					"*-adult-male-melursusursinus": 45,
-					"*-adult-male-tremarctosornatus": 52,
-					"*-adult-male-ursusamericanus": 60,
-					"*-adult-male-ursusarctos": 80,
-					"*-adult-male-ursusmaritimus": 88,
-					"*-adult-male-ursusthibetanus": 62,
-					"*-baby-*-ailuropodamelanoleuca": 15,
-					"*-baby-*-helarctosmalayanus": 13,
-					"*-baby-*-melursusursinus": 14,
-					"*-baby-*-tremarctosornatus": 17,
-					"*-baby-*-ursusamericanus": 18,
-					"*-baby-*-ursusarctos": 21,
-					"*-baby-*-ursusmaritimus": 26,
-					"*-baby-*-ursusthibetanus": 19
-				},
+			{ code: "controlledphysics",
+				stepHeightByType: {
+					"*-adult-*-ailuropodamelanoleuca": 3.1251,
+					"*-baby-*-ailuropodamelanoleuca": 2.1251,
+					"*-adult-*-helarctosmalayanus": 2.1251,
+					"*-baby-*-helarctosmalayanus": 2.1251,
+					"*-adult-*-melursusursinus": 3.1251,
+					"*-baby-*-melursusursinus": 2.1251,
+					"*-adult-*-tremarctosornatus": 3.1251,
+					"*-baby-*-tremarctosornatus": 2.1251,
+					"*-adult-*-ursusamericanus": 3.1251,
+					"*-baby-*-ursusamericanus": 2.1251,
+					"*-adult-*-ursusarctos": 3.1251,
+					"*-baby-*-ursusarctos": 2.1251,
+					"*-adult-*-ursusmaritimus": 2.8751,
+					"*-baby-*-ursusmaritimus": 2.1251,
+					"*-adult-*-ursusthibetanus": 3.1251,
+					"*-baby-*-ursusthibetanus": 2.1251
+				} 
+			},
+			{ code: "despawn", minPlayerDistance: 30, belowLightLevel: 8, minSeconds: 300, afterDays: 21 },
+			{ code: "health",
 				maxhealthByType: {
 					"*-adult-female-ailuropodamelanoleuca": 45,
 					"*-adult-female-helarctosmalayanus": 34,
@@ -346,10 +514,10 @@
 					"*-baby-*-ursusthibetanus": 19
 				}
 			},
-			{ 
-				code: "deaddecay", 
+			{ code: "deaddecay", 
 				hoursToDecay: 96, 
 				decayedBlockByType: {
+					"*-baby-*-ailuropodamelanoleuca": "carcass-small",
 					"*-adult-*-helarctosmalayanus": "carcass-medium",
 					"*-baby-*-helarctosmalayanus": "carcass-small",
 					"*-adult-*": "carcass-large",
@@ -357,8 +525,7 @@
 				}
 			},
 			{ code: "floatupwhenstuck", "onlyWhenDead": true },
-			{ 
-				code: "harvestable",
+			{ code: "harvestable",
 				drops: [
 					{
 						type: "item",
@@ -424,9 +591,9 @@
 					},
 					{
 						type: "item",
-						code: "untamedwildsursidae:pelt-pelt-{age}-{gender}-{type}",
+						code: "untamedwildsursidae:pelt-raw-{age}-{gender}-{type}",
 						quantityByType: {
-							"*-adult-*": {avg: 1.0,var: 0.0}
+							"*": {avg: 1.0,var: 0.0}
 						}
 					}
 				]
@@ -476,7 +643,7 @@
 					{code: "alarmherdondamage","duration": 30,"chance": 1,"slot": 1,"priority": 1,"accumType": "max"},
 					{code: "aggressiveondamage","duration": 30,"chanceByType": {"*-baby-*": 0.1,"*-ailuropodamelanoleuca": 0.1,"*-helarctosmalayanus": 0.2,"*-melursusursinus": 0.9,"*-tremarctosornatus": 0.4,"*-ursusamericanus": 0.3,"*-ursusarctos": 0.6,"*-ursusmaritimus": 0.7,"*-ursusthibetanus": 0.3},"slot": 2,"priority": 2,"accumType": "noaccum"},
 					{code: "saturated","duration": 480,"chance": 1,"slot": 0,"priority": 1,"accumType": "sum","belowTempDuration": 240,"belowTempThreshold": -10},
-					{code: "aggressivearoundentities", "duration": 10, "chanceByType": {"*-baby-*": 0.0,"*-ailuropodamelanoleuca": 0.3,"*-helarctosmalayanus": 0.2,"*-melursusursinus": 0.9,"*-tremarctosornatus": 0.7,"*-ursusamericanus": 0.7,"*-ursusarctos": 0.9,"*-ursusmaritimus": 1.0,"*-ursusthibetanus": 0.5}, "slot": 2, "priority": 1, "entityCodes": ["untamedwildsursidae:ursidae-baby-male-{type}","untamedwildsursidae:ursidae-baby-female-{type}"], "maxGeneration": 10 }
+					{code: "aggressivearoundentities", "duration": 10, "chanceByType": {"*-baby-*": 0.0,"*-ailuropodamelanoleuca": 0.3,"*-helarctosmalayanus": 0.2,"*-melursusursinus": 0.9,"*-tremarctosornatus": 0.7,"*-ursusamericanus": 0.7,"*-ursusarctos": 0.9,"*-ursusmaritimus": 1.0,"*-ursusthibetanus": 0.5}, "slot": 2, "priority": 1, "entityCodes": ["untamedwildsursidae:ursidae-baby-male-{type}","untamedwildsursidae:ursidae-baby-female-{type}"], "maxGeneration": 3 }
 				]
 			},
 			{ code: "taskai",
@@ -655,7 +822,7 @@
 					{
 						"code": "fleeentity",
 						"entityCodesByType": {
-							"*-adult-*-ailuropodamelanoleuca": ["pantherinae-panthera-adult-*", "machairodontinae-adult-*", "rhinocerotidae-adult-*"],
+							"*-adult-*-ailuropodamelanoleuca": ["bear-polar-*", "pantherinae-panthera-adult-*", "machairodontinae-adult-*", "rhinocerotidae-adult-*"],
 							"*-adult-*-helarctosmalayanus": ["pantherinae-panthera-adult-*", "machairodontinae-adult-*", "rhinocerotidae-adult-*"],
 							"*-adult-*-melursusursinus": ["pantherinae-panthera-adult-*", "machairodontinae-adult-*", "rhinocerotidae-adult-*"],
 							"*-adult-*-tremarctosornatus": ["pantherinae-panthera-adult-*", "machairodontinae-adult-*", "rhinocerotidae-adult-*"],

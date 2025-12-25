@@ -1,90 +1,211 @@
-[
+[ 
     {
         "ingredientPattern": "F,H",
         "ingredients": {
             "F": { "type": "item", "code": "game:fat", "quantity": 1 },
-            "H": { "type": "item", "code": "pelt-raw-adult-*-ailuropodamelanoleuca", "quantity": 1 }
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-adult-*-ailuropodamelanoleuca", "name": "gender",  "quantity": 1 }
         },
         "shapeless": true,
         "width": 1,
         "height": 2,
-        "output": { "type": "item", "code": "pelt-oiled-adult-*-ailuropodamelanoleuca", "quantity": 1 }
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-adult-{gender}-ailuropodamelanoleuca", "quantity": 1 }
     },
     {
         "ingredientPattern": "F,H",
         "ingredients": {
             "F": { "type": "item", "code": "game:fat", "quantity": 1 },
-            "H": { "type": "item", "code": "pelt-raw-adult-male-helarctosmalayanus", "quantity": 2 }
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-adult-male-helarctosmalayanus", "quantity": 2 }
         },
         "shapeless": true,
         "width": 1,
         "height": 2,
-        "output": { "type": "item", "code": "pelt-oiled-adult-male-helarctosmalayanus", "quantity": 2 }
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-adult-male-helarctosmalayanus", "quantity": 2 }
     },
     {
         "ingredientPattern": "F,H",
         "ingredients": {
             "F": { "type": "item", "code": "game:fat", "quantity": 1 },
-            "H": { "type": "item", "code": "pelt-raw-adult-female-helarctosmalayanus", "quantity": 3 }
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-adult-male-helarctosmalayanus", "quantity": 1 }
         },
         "shapeless": true,
         "width": 1,
         "height": 2,
-        "output": { "type": "item", "code": "pelt-oiled-adult-female-helarctosmalayanus", "quantity": 3 }
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-adult-male-helarctosmalayanus", "quantity": 1 }
+    },
+    {
+        "ingredientPattern": "F,H",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fat", "quantity": 1 },
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-adult-female-helarctosmalayanus", "quantity": 3 }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-adult-female-helarctosmalayanus", "quantity": 3 }
+    },
+    {
+        "ingredientPattern": "F,H",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fat", "quantity": 1 },
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-adult-female-helarctosmalayanus", "quantity": 2 }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-adult-female-helarctosmalayanus", "quantity": 2 }
+    },
+    {
+        "ingredientPattern": "F,H",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fat", "quantity": 1 },
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-adult-female-helarctosmalayanus", "quantity": 1 }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-adult-female-helarctosmalayanus", "quantity": 1 }
     },
     {
         "ingredientPattern": "F,H",
         "ingredients": {
             "F": { "type": "item", "code": "game:fat", "quantity": 4 },
-            "H": { "type": "item", "code": "pelt-raw-adult-*-ursusarctos", "quantity": 1 }
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-adult-*-ursusarctos", "name": "gender", "quantity": 1 }
         },
         "shapeless": true,
         "width": 1,
         "height": 2,
-        "output": { "type": "item", "code": "pelt-oiled-adult-*-ursusarctos", "quantity": 1 }
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-adult-{gender}-ursusarctos", "quantity": 1 }
     },
     {
         "ingredientPattern": "F,H",
         "ingredients": {
             "F": { "type": "item", "code": "game:fat", "quantity": 5 },
-            "H": { "type": "item", "code": "pelt-raw-adult-male-ursusmaritimus", "quantity": 1 }
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-adult-male-ursusmaritimus", "quantity": 1 }
         },
         "shapeless": true,
         "width": 1,
         "height": 2,
-        "output": { "type": "item", "code": "pelt-oiled-adult-male-ursusmaritimus", "quantity": 1 }
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-adult-male-ursusmaritimus", "quantity": 1 }
     },
     {
         "ingredientPattern": "F,H",
         "ingredients": {
             "F": { "type": "item", "code": "game:fat", "quantity": 4 },
-            "H": { "type": "item", "code": "pelt-raw-adult-female-ursusmaritimus", "quantity": 1 }
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-adult-female-ursusmaritimus", "quantity": 1 }
         },
         "shapeless": true,
         "width": 1,
         "height": 2,
-        "output": { "type": "item", "code": "pelt-oiled-adult-female-ursusmaritimus", "quantity": 1 }
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-adult-female-ursusmaritimus", "quantity": 1 }
     },
     {
         "ingredientPattern": "F,H",
         "ingredients": {
             "F": { "type": "item", "code": "game:fat", "quantity": 1 },
-            "H": { "type": "item", "code": "pelt-raw-baby-*-*", "quantity": 4 }
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-baby-female-*", "name": "species", "quantity": 4 }
         },
         "shapeless": true,
         "width": 1,
         "height": 2,
-        "output": { "type": "item", "code": "pelt-oiled-baby-*-*", "quantity": 4 }, 
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-baby-female-{species}", "quantity": 4 }
+    },
+    {
+        "ingredientPattern": "F,H",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fat", "quantity": 1 },
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-baby-male-*", "name": "species", "quantity": 4 }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-baby-male-{species}", "quantity": 4 }
+    },
+    {
+        "ingredientPattern": "F,H",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fat", "quantity": 1 },
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-baby-female-*", "name": "species", "quantity": 3 }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-baby-female-{species}", "quantity": 3 }
+    },
+    {
+        "ingredientPattern": "F,H",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fat", "quantity": 1 },
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-baby-male-*", "name": "species", "quantity": 3 }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-baby-male-{species}", "quantity": 3 }
+    },
+    {
+        "ingredientPattern": "F,H",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fat", "quantity": 1 },
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-baby-female-*", "name": "species", "quantity": 2 }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-baby-female-{species}", "quantity": 2 }
+    },
+    {
+        "ingredientPattern": "F,H",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fat", "quantity": 1 },
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-baby-male-*", "name": "species", "quantity": 2 }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-baby-male-{species}", "quantity": 2 }
+    },
+    {
+        "ingredientPattern": "F,H",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fat", "quantity": 1 },
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-baby-female-*", "name": "species", "quantity": 1 }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-baby-female-{species}", "quantity": 1 }
+    },
+    {
+        "ingredientPattern": "F,H",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fat", "quantity": 1 },
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-baby-male-*", "name": "species", "quantity": 1 }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-baby-male-{species}", "quantity": 1 }
     },
     {
         "ingredientPattern": "F,H",
         "ingredients": {
             "F": { "type": "item", "code": "game:fat", "quantity": 3 },
-            "H": { "type": "item", "code": "pelt-raw-adult-*-*", "quantity": 1 }
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-adult-female-*", "name": "species", "quantity": 1 }
         },
         "shapeless": true,
         "width": 1,
         "height": 2,
-        "output": { "type": "item", "code": "pelt-oiled-adult-*-*", "quantity": 1 }
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-adult-female-{species}", "quantity": 1 }
+    },
+    {
+        "ingredientPattern": "F,H",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fat", "quantity": 3 },
+            "H": { "type": "item", "code": "untamedwildsursidae:pelt-raw-adult-male-*", "name": "species", "quantity": 1 }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "untamedwildsursidae:pelt-oiled-adult-male-{species}", "quantity": 1 }
     }
 ]

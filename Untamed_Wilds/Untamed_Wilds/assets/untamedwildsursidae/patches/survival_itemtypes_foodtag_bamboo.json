@@ -1,0 +1,35 @@
+[
+    {
+        // Add attributes with foodTags to vanilla bamboo shoots
+        "op": "addmerge",
+        "path": "/attributes",
+        "value": {
+            "foodTags": ["bamboo", "vegetable"]
+        },
+        "file": "game:itemtypes/food/bambooshoot",
+        "side": "Server"
+    },
+    {
+        // First, add the behaviors array
+        "op": "addmerge",
+        "path": "/behaviors",
+        "value": [],
+        "file": "game:itemtypes/food/bambooshoot",
+        "side": "Server"
+    },
+    {
+        // Add GroundStorable behavior for trap bait functionality
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Quadrants",
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+            }
+        },
+        "file": "game:itemtypes/food/bambooshoot",
+        "side": "Server"
+    },
+
+]

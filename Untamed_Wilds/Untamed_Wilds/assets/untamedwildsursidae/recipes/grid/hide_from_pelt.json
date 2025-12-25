@@ -11,7 +11,14 @@
 				"type": "item", 
 				"code": "untamedwildsursidae:pelt-*", 
 				"allowedVariants": [
-					"baby-helarctosmalayanus"
+					"raw-baby-female-helarctosmalayanus",
+					"raw-baby-male-helarctosmalayanus",
+					"oiled-baby-female-helarctosmalayanus",
+					"oiled-baby-male-helarctosmalayanus",
+					"salted-baby-female-helarctosmalayanus",
+					"salted-baby-male-helarctosmalayanus",
+					"pelt-baby-female-helarctosmalayanus",
+					"pelt-baby-male-helarctosmalayanus",
 				] 
 			}
 		},
@@ -35,8 +42,18 @@
 				"type": "item", 
 				"code": "untamedwildsursidae:pelt-*", 
 				"allowedVariants": [
-					"baby-ailuropodamelanoleuca",
-					"baby-melursusursinus"
+					"raw-baby-female-ailuropodamelanoleuca",
+					"raw-baby-female-melursusursinus",
+					"raw-baby-male-ailuropodamelanoleuca",
+					"raw-baby-male-melursusursinus",
+					"oiled-baby-female-ailuropodamelanoleuca",
+					"oiled-baby-female-melursusursinus",
+					"oiled-baby-male-ailuropodamelanoleuca",
+					"oiled-baby-male-melursusursinus",
+					"salted-baby-female-ailuropodamelanoleuca",
+					"salted-baby-female-melursusursinus",
+					"salted-baby-male-ailuropodamelanoleuca",
+					"salted-baby-male-melursusursinus",
 				] 
 			}
 		},
@@ -60,10 +77,30 @@
 				"type": "item", 
 				"code": "untamedwildsursidae:pelt-*", 
 				"allowedVariants": [
-					"baby-tremarctosornatus",
-					"baby-ursusamericanus",
-					"baby-ursusarctos",
-					"baby-ursusthibetanus"
+					"raw-baby-female-tremarctosornatus",
+					"raw-baby-female-ursusamericanus",
+					"raw-baby-female-ursusarctos",
+					"raw-baby-female-ursusthibetanus",
+					"raw-baby-male-tremarctosornatus",
+					"raw-baby-male-ursusamericanus",
+					"raw-baby-male-ursusarctos",
+					"raw-baby-male-ursusthibetanus",
+					"oiled-baby-female-tremarctosornatus",
+					"oiled-baby-female-ursusamericanus",
+					"oiled-baby-female-ursusarctos",
+					"oiled-baby-female-ursusthibetanus",
+					"oiled-baby-male-tremarctosornatus",
+					"oiled-baby-male-ursusamericanus",
+					"oiled-baby-male-ursusarctos",
+					"oiled-baby-male-ursusthibetanus",
+					"salted-baby-female-tremarctosornatus",
+					"salted-baby-female-ursusamericanus",
+					"salted-baby-female-ursusarctos",
+					"salted-baby-female-ursusthibetanus",
+					"salted-baby-male-tremarctosornatus",
+					"salted-baby-male-ursusamericanus",
+					"salted-baby-male-ursusarctos",
+					"salted-baby-male-ursusthibetanus"
 				] 
 			}
 		},
@@ -87,8 +124,15 @@
 				"type": "item", 
 				"code": "untamedwildsursidae:pelt-*", 
 				"allowedVariants": [
-					"female-helarctosmalayanus",
-					"baby-ursusmaritimus"
+					"raw-adult-female-helarctosmalayanus",
+					"raw-baby-female-ursusmaritimus",
+					"raw-baby-female-ursusmaritimus",
+					"oiled-adult-female-helarctosmalayanus",
+					"oiled-baby-female-ursusmaritimus",
+					"oiled-baby-female-ursusmaritimus",
+					"salted-adult-female-helarctosmalayanus",
+					"salted-baby-female-ursusmaritimus",
+					"salted-baby-female-ursusmaritimus"
 				] 
 			}
 		},
@@ -112,15 +156,17 @@
 				"type": "item", 
 				"code": "untamedwildsursidae:pelt-*", 
 				"allowedVariants": [
-					"male-helarctosmalayanus"
+					"raw-adult-male-helarctosmalayanus",
+					"oiled-adult-male-helarctosmalayanus",
+					"salted-adult-male-helarctosmalayanus"
+
 				] 
 			}
 		},
 		"width": 2,
 		"height": 1,
 		"output": { 
-			"type": 
-			"item", 
+			"type": "item", 
 			"code": "game:hide-raw-large", 
 			"quantity": 2  
 		}
@@ -137,18 +183,22 @@
 				"type": "item", 
 				"code": "untamedwildsursidae:pelt-*", 
 				"allowedVariants": [
-					"female-ailuropodamelanoleuca",
-					"female-melursusursinus",
-          "male-ursusthibetanus"
-
+					"raw-adult-female-ailuropodamelanoleuca",
+					"raw-adult-female-melursusursinus",
+					"raw-adult-male-ursusthibetanus",
+					"oiled-adult-female-ailuropodamelanoleuca",
+					"oiled-adult-female-melursusursinus",
+					"oiled-adult-male-ursusthibetanus",
+					"salted-adult-female-ailuropodamelanoleuca",
+					"salted-adult-female-melursusursinus",
+					"salted-adult-male-ursusthibetanus"
 				] 
 			}
 		},
 		"width": 2,
 		"height": 1,
 		"output": { 
-			"type": 
-			"item", 
+			"type": "item", 
 			"code": "game:hide-raw-large", 
 			"quantity": 3  
 		}
@@ -165,16 +215,19 @@
 				"type": "item", 
 				"code": "untamedwildsursidae:pelt-*", 
 				"allowedVariants": [
-					"male-ailuropodamelanoleuca",
-					"male-melursusursinus"
+					"raw-adult-male-ailuropodamelanoleuca",
+					"raw-adult-male-melursusursinus",
+					"oiled-adult-male-ailuropodamelanoleuca",
+					"oiled-adult-male-melursusursinus",
+					"salted-adult-male-ailuropodamelanoleuca",
+					"salted-adult-male-melursusursinus",
 				] 
 			}
 		},
 		"width": 2,
 		"height": 1,
 		"output": { 
-			"type": 
-			"item", 
+			"type": "item", 
 			"code": "game:hide-raw-large", 
 			"quantity": 4  
 		}
@@ -191,20 +244,31 @@
 				"type": "item", 
 				"code": "untamedwildsursidae:pelt-*", 
 				"allowedVariants": [
-					"female-tremarctosornatus",
-					"male-tremarctosornatus",
-					"female-ursusamericanus",
-					"male-ursusamericanus",
-					"female-ursusarctos",
-					"female-ursusthibetanus"
+					"raw-adult-female-tremarctosornatus",
+					"raw-adult-male-tremarctosornatus",
+					"raw-adult-female-ursusamericanus",
+					"raw-adult-male-ursusamericanus",
+					"raw-adult-female-ursusarctos",
+					"raw-adult-female-ursusthibetanus",
+					"oiled-adult-female-tremarctosornatus",
+					"oiled-adult-male-tremarctosornatus",
+					"oiled-adult-female-ursusamericanus",
+					"oiled-adult-male-ursusamericanus",
+					"oiled-adult-female-ursusarctos",
+					"oiled-adult-female-ursusthibetanus",
+					"salted-adult-female-tremarctosornatus",
+					"salted-adult-male-tremarctosornatus",
+					"salted-adult-female-ursusamericanus",
+					"salted-adult-male-ursusamericanus",
+					"salted-adult-female-ursusarctos",
+					"salted-adult-female-ursusthibetanus"
 				] 
 			}
 		},
 		"width": 2,
 		"height": 1,
 		"output": { 
-			"type": 
-			"item", 
+			"type": "item", 
 			"code": "game:hide-raw-huge", 
 			"quantity": 2  
 		}
@@ -221,16 +285,19 @@
 				"type": "item", 
 				"code": "untamedwildsursidae:pelt-*", 
 				"allowedVariants": [
-					"male-ursusarctos",
-					"female-ursusmaritimus"
+					"raw-adult-male-ursusarctos",
+					"raw-adult-female-ursusmaritimus",
+					"oiled-adult-male-ursusarctos",
+					"oiled-adult-female-ursusmaritimus",
+					"salted-adult-male-ursusarctos",
+					"salted-adult-female-ursusmaritimus"
 				] 
 			}
 		},
 		"width": 2,
 		"height": 1,
 		"output": { 
-			"type": 
-			"item", 
+			"type": "item", 
 			"code": "game:hide-raw-huge", 
 			"quantity": 3  
 		}
@@ -247,15 +314,16 @@
 				"type": "item", 
 				"code": "untamedwildsursidae:pelt-*", 
 				"allowedVariants": [
-					"male-ursusmaritimus"
+					"raw-adult-male-ursusmaritimus",
+					"oiled-adult-male-ursusmaritimus",
+					"salted-adult-male-ursusmaritimus"
 				] 
 			}
 		},
 		"width": 2,
 		"height": 1,
 		"output": { 
-			"type": 
-			"item", 
+			"type": "item",
 			"code": "game:hide-raw-huge", 
 			"quantity": 4  
 		}
