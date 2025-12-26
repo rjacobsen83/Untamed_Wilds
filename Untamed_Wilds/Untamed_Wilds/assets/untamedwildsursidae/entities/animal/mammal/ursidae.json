@@ -363,7 +363,6 @@
 			{ code: "despawn","minPlayerDistance": 30,"belowLightLevel": 8,"minSeconds": 300, afterDays: 21 },
 			{ code: "multiply", "enabledByType": { "*-adult-female-*": true, "*": false } },
 			{ code: "ropetieable", "minGeneration": 3 }
-
 		],
 		animations: [
 			{
@@ -376,8 +375,9 @@
 			{
 				code: "stand",
 				animation: "Stand",
+				supressDefaultAnimation: true,	
+				easeInSpeed: 3,
 				easeOutSpeed: 2,
-				weight: 1,
 				blendMode: "Average"
 			},
 			{
@@ -411,29 +411,29 @@
 				animation: "Sleep",
 				easeInSpeed: 4,
 				easeOutSpeed: 4,
-				weight: 1.25,
 				blendMode: "Average"
 			},
 			{
 				code: "sit",
 				animation: "Sit",
+				supressDefaultAnimation: true,
 				easeInSpeed: 4,
-				easeOutSpeed: 3,
-				supressDefaultAnimation: true,				
+				easeOutSpeed: 4,
 				blendMode: "Average"
 			},
 			{
 				code: "eat",
 				animation: "Eat",
-				easeInSpeed: 0.5,
-				easeOutSpeed: 0.5,
+				easeInSpeed: 2,
+				easeOutSpeed: 2,
 				blendMode: "AddAverage"
 			},
 			{
 				code: "lie",
 				animation: "Lie",
+				supressDefaultAnimation: true,
 				easeInSpeed: 4,
-				easeOutSpeed: 3,
+				easeOutSpeed: 4,
 				blendMode: "Average"
 			},
 			{
@@ -446,13 +446,13 @@
 				code: "walk",
 				animation: "Walk",
 				supressDefaultAnimation: true,
-				blendMode: "AddAverage"
+				blendMode: "Average"
 			},
 			{
 				code: "run",
 				animation: "Run",
 				supressDefaultAnimation: true,
-				blendMode: "AddAverage"
+				blendMode: "Average"
 			}
 		]
 	},
@@ -1598,7 +1598,6 @@
 						"maxduration": 200000,
 						"mincooldown": 2000,
 						"maxcooldown": 120000,
-						"supressDefaultAnimation": true,
 						"stopOnNearbyEntityCodes": ["player"],
 						"stopRange": 10
 					},
